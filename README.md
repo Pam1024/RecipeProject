@@ -2,13 +2,13 @@
 Exploring recipe datas using machine learning algorithms, and visualizingthe findings using d3 technology
 
 **Basic functionality:**
-  Developing index.html,main.js
+  Developing index.html,main.js, style.css
 
 **Expected functionality:**
-  Developing distinctive.html, distinctive.js
+  Developing distinctive.html, distinctive.js,distinctive.css
 
 **Bounus functionality:**
-  Developing similarity.html, similarity.js
+  Developing similarity.html, similarity.js,similarity.css
 
 **CSS Folder:** for all css file,include related libs
 
