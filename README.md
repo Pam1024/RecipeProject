@@ -16,4 +16,6 @@ Exploring recipe datas using machine learning algorithms, and visualizingthe fin
 
 **Data Folder:** for all csv, python file
 
+**Func1 draft**
 
+![Alt text](Imgs/func1.png)
