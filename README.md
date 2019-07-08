@@ -19,3 +19,5 @@ Exploring recipe datas using machine learning algorithms, and visualizingthe fin
 **Func1 draft**
 
 ![Alt text](Imgs/func1.png)
+
+![Alt text](Imgs/func1-2.png)
