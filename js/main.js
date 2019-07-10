@@ -95,10 +95,10 @@ function wordCloud(selector) {
         update: function (newWords) {
             d3.layout.cloud().size([750, 450])
                 .words(newWords)
-                .padding(2)
-                .rotate(function () { return ~~(Math.random() * 2) * 90; })
+                .padding(1)
+                .rotate(function () { return ~~(Math.random() * 2) *90; })
                 .font("Impact")
-                .fontSize(function (d) { return +d.fontSize; })
+                .fontSize(function (d) { return d.fontSize; })
                 .on("end", draw)
                 .start();
         }
