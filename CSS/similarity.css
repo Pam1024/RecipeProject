@@ -1,12 +1,12 @@
 #chart-area {
     width: 100%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     text-align: center;
 }
 
 #chart {
     display: inline-block;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 50px 20px 20px 20px;
 }
 
@@ -27,7 +27,7 @@ p {
     align: left;
     display: inline-block;
 }
-body {
+/* body {
     padding: 10px;
     min-width: 600px;
     max-width: 1200px;
@@ -49,4 +49,8 @@ body {
     fill: none;
     stroke: #000;
     stroke-opacity: .2;
+  } */
+
+  .btn-lg {
+    font-size: 1em;
   }

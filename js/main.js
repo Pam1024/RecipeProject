@@ -116,3 +116,11 @@ function showNewWords(vis) {
     setTimeout(function () { showNewWords(vis) }, 4000)
 }
 
+// button click
+function distinctiveClick() {
+    window.location = "distinctive.html";
+}
+
+function similarityClick() {
+    window.location = "similarity.html";
+}

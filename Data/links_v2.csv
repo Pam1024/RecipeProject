@@ -1,0 +1,37 @@
+cuisine,source,target
+chinese, sesame oil, green onions
+chinese, water, green onions
+french, flour, butter
+french, flour, carrots
+french, pepper, butter
+french, pepper, carrots
+indian, salt, garam masala
+indian, salt, onions
+indian, salt, ground turmeric
+indian, salt, ginger
+indian, salt, cumin seed
+indian, garam masala, cumin seed
+indian, onions, ground turmeric
+indian, onions, ginger
+indian, onions, cumin seed
+indian, yogurt, ground turmeric
+indian, yogurt, ginger
+indian, yogurt, cumin seed
+indian, ground turmeric, ginger
+indian, ground turmeric, cumin seed
+indian, ginger, cumin seed
+japanese, soy sauce, mirin
+japanese, soy sauce, sake
+japanese, soy sauce, scallions
+japanese, sugar, scallions
+moroccan, olive oil, ground cumin
+moroccan, olive oil, ground cinnamon
+moroccan, olive oil, ground ginger
+moroccan, olive oil, ground coriander
+moroccan, ground cumin, ground cinnamon
+moroccan, ground cumin, ground coriander
+moroccan, ground ginger, ground coriander
+spanish, saffron threads, paprika
+spanish, sausage, paprika
+thai, fish sauce, coconut milk
+thai, garlic, coconut milk

@@ -65,3 +65,12 @@ d3.csv("Data/ingredients-2.csv", function (error, data) {
     //     }
     // }
 });
+
+// button click
+function popularClick() {
+    window.location = "index.html";
+}
+
+function distinctiveClick() {
+    window.location = "distinctive.html";
+}
