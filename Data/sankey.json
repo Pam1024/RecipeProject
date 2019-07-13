@@ -1,0 +1,269 @@
+{
+"nodes": [{
+        "id": 0,
+        "name": "cuban"
+    },
+    {
+        "id": 1,
+        "name": "chinese"
+    },
+    {
+        "id": 2,
+        "name": "indian"
+    },
+    {
+        "id": 3,
+        "name": "french"
+    },
+    {
+        "id": 4,
+        "name": "greek"
+    },
+    {
+        "id": 5,
+        "name": "english"
+    },
+    {
+        "id": 6,
+        "name": "italian"
+    },
+    {
+        "id": 7,
+        "name": "mexican"
+    },
+    {
+        "id": 8,
+        "name": "spanish"
+    },
+    {
+        "id": 9,
+        "name": "hungarian"
+    },
+    {
+        "id": 10,
+        "name": "american"
+    },
+    {
+        "id": 11,
+        "name": "german"
+    },
+    {
+        "id": 12,
+        "name": "mexican"
+    },
+    {
+        "id": 13,
+        "name": "spanish"
+    },
+    {
+        "id": 14,
+        "name": "american"
+    },
+    {
+        "id": 15,
+        "name": "portuguese"
+    },
+    {
+        "id": 16,
+        "name": "hawaiian"
+    },
+    {
+        "id": 17,
+        "name": "japanese"
+    },
+    {
+        "id": 18,
+        "name": "thai"
+    },
+    {
+        "id": 19,
+        "name": "english"
+    },
+    {
+        "id": 20,
+        "name": "italian"
+    },
+    {
+        "id": 21,
+        "name": "irish"
+    },
+    {
+        "id": 22,
+        "name": "german"
+    },
+    {
+        "id": 23,
+        "name": "swedish"
+    },
+    {
+        "id": 24,
+        "name": "hungarian"
+    }
+],
+"links": [{
+        "source": 0,
+        "target": 12,
+        "value": 4.433280826
+    },
+    {
+        "source": 0,
+        "target": 12,
+        "value": 4.433280826
+    },
+    {
+        "source": 0,
+        "target": 13,
+        "value": 3.895996357
+    },
+    {
+        "source": 0,
+        "target": 14,
+        "value": 3.131675639
+    },
+    {
+        "source": 0,
+        "target": 15,
+        "value": 6.25
+    },
+    {
+        "source": 1,
+        "target": 16,
+        "value": 3.17755721
+    },
+    {
+        "source": 1,
+        "target": 17,
+        "value": 7.212903226
+    },
+    {
+        "source": 1,
+        "target": 18,
+        "value": 4.973807554
+    },
+    {
+        "source": 2,
+        "target": 18,
+        "value": 3.498864005
+    },
+    {
+        "source": 3,
+        "target": 19,
+        "value": 5.330522191
+    },
+    {
+        "source": 3,
+        "target": 20,
+        "value": 5.037919827
+    },
+    {
+        "source": 3,
+        "target": 13,
+        "value": 3.275933688
+    },
+    {
+        "source": 3,
+        "target": 14,
+        "value": 5.022991193
+    },
+    {
+        "source": 3,
+        "target": 21,
+        "value": 4.027711419
+    },
+    {
+        "source": 3,
+        "target": 22,
+        "value": 3.490543179
+    },
+    {
+        "source": 3,
+        "target": 15,
+        "value": 7.8125
+    },
+    {
+        "source": 4,
+        "target": 20,
+        "value": 4.724335317
+    },
+    {
+        "source": 5,
+        "target": 14,
+        "value": 4.628071912
+    },
+    {
+        "source": 5,
+        "target": 21,
+        "value": 8.988877654
+    },
+    {
+        "source": 5,
+        "target": 22,
+        "value": 4.078062317
+    },
+    {
+        "source": 5,
+        "target": 23,
+        "value": 7.963354475
+    },
+    {
+        "source": 5,
+        "target": 15,
+        "value": 3.125
+    },
+    {
+        "source": 6,
+        "target": 14,
+        "value": 4.152432324
+    },
+    {
+        "source": 6,
+        "target": 15,
+        "value": 3.125
+    },
+    {
+        "source": 7,
+        "target": 14,
+        "value": 3.86211563
+    },
+    {
+        "source": 8,
+        "target": 24,
+        "value": 4.883077697
+    },
+    {
+        "source": 8,
+        "target": 15,
+        "value": 10.9375
+    },
+    {
+        "source": 9,
+        "target": 22,
+        "value": 4.576255101
+    },
+    {
+        "source": 9,
+        "target": 23,
+        "value": 4.031781227
+    },
+    {
+        "source": 9,
+        "target": 15,
+        "value": 8.056402439
+    },
+    {
+        "source": 10,
+        "target": 22,
+        "value": 3.118635649
+    },
+    {
+        "source": 10,
+        "target": 15,
+        "value": 3.125
+    },
+    {
+        "source": 11,
+        "target": 23,
+        "value": 3.808513147
+    }
+]
+}
