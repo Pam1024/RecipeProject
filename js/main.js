@@ -81,6 +81,22 @@ function wordCloud(selector) {
             })
             .style("fill-opacity", 1);
 
+        cloud.on("mouseenter", function (d) {
+
+            var mouse = d3.mouse(this);
+            var text = "<h3>Ingredients: " + d.ingredients + "</h3><br>";
+            text += "Fdist value: " + d.fdist + "<br>";
+            text += "Normalized value: " + d.fontSize;
+            var color = d3.select(this).style('fill');
+            tooltip(color, text, mouse[0], mouse[1], true);
+
+        })
+            .on("mouseout", function (d) {
+                if (true) {
+                    tooltip(null, null, null, null, false);
+                }
+            });
+
         //Exiting words
         cloud.exit()
             .transition()
@@ -96,7 +112,7 @@ function wordCloud(selector) {
             d3.layout.cloud().size([750, 450])
                 .words(newWords)
                 .padding(1)
-                .rotate(function () { return ~~(Math.random() * 2) *90; })
+                .rotate(function () { return ~~(Math.random() * 2) * 90; })
                 .font("Impact")
                 .fontSize(function (d) { return d.fontSize; })
                 .on("end", draw)
@@ -123,4 +139,17 @@ function distinctiveClick() {
 
 function similarityClick() {
     window.location = "similarity.html";
+}
+
+function tooltip(color, text, x, y, show) {
+    var display_tool = show ? "block" : "none";
+    var root = d3.select('#tooltip')
+        .classed("tooltip", true)
+        .style({
+            position: "absolute",
+            left: x + 30 + "px",
+            top: y + 100 + "px",
+            display: display_tool,
+            'background-color': color
+        }).html(text);
 }
