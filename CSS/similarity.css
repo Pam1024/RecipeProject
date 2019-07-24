@@ -36,7 +36,7 @@ p {
   #chart {
     height: 500px;
     font: 13px sans-serif;
-  }
+  } */
   .node rect {
     fill-opacity: .9;
     shape-rendering: crispEdges;
@@ -49,8 +49,15 @@ p {
     fill: none;
     stroke: #000;
     stroke-opacity: .2;
+  }
+  /* .link {
+    fill: none;
+    stroke: #000;
+    stroke-opacity: .5;
+  }
+  .link:hover {
+    stroke-opacity: 1;
   } */
-
   .btn-lg {
     font-size: 1em;
   }

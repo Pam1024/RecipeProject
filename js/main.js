@@ -113,7 +113,7 @@ function wordCloud(selector) {
 function showNewWords(vis) {
 
     vis.update(getWords());
-    setTimeout(function () { showNewWords(vis) }, 4000)
+    //setTimeout(function () { showNewWords(vis) }, 4000)
 }
 
 // button click
