@@ -1,8 +1,7 @@
 var nodes = [], links = [], nodes_name = [], nodes_name1 = [], nodes_name2 = [], countries = [], graph = {};
 
-var colors = d3.scale.category20();
-//Data/ingredients-2.csv
-// //cdn.rawgit.com/q-m/d3.chart.sankey/master/example/data/product.json
+var colors = d3.scale.category10();
+// ref:/cdn.rawgit.com/q-m/d3.chart.sankey/master/example/data/product.json
 d3.csv("Data/ingredients-2.csv", function (error, data) {
     data.forEach(function (d) {
 
@@ -41,7 +40,7 @@ d3.csv("Data/ingredients-2.csv", function (error, data) {
 
         i++;
     }
-    console.log(nodes_name, nodes_name2, typeof countries);
+    // console.log(nodes_name, nodes_name2, typeof countries);
     i = 0;
     for (var key in nodes_name1) {
         for (var key2 in nodes_name2) {
@@ -53,7 +52,7 @@ d3.csv("Data/ingredients-2.csv", function (error, data) {
                 var c12 = countries[c2];
                 console.log(typeof c11);
                 var value = cal_value(c11, c12);
-                if (value != 1) {
+                if (value != 1 && value != 0) {
                     links[i] = {
                         source: parseInt(key),
                         value: value,
@@ -72,7 +71,6 @@ d3.csv("Data/ingredients-2.csv", function (error, data) {
     data = [], nodes = [], links = [], nodes_name = [], countries = [];
     console.log(graph);
 
-
     var chart = d3.select("#chart").append("svg").chart("Sankey.Path");
     chart
         .name(label)
@@ -84,7 +82,7 @@ d3.csv("Data/ingredients-2.csv", function (error, data) {
         })
         .nodeWidth(30)
         .nodePadding(5)
-        .spread(true)
+        .spread(false)
         .iterations(0)
         .draw(graph);
     function label(node) {
@@ -102,11 +100,8 @@ d3.csv("Data/ingredients-2.csv", function (error, data) {
         // }
         return colors(id);
     }
-
-
-
-
 });
+
 function cal_value(a, b) {
     var a_keys = Object.keys(a);
     var a_total = Object.values(a).reduce((a, b) => a + b, 0);
@@ -120,7 +115,9 @@ function cal_value(a, b) {
         a_commonTotal += a[e];
         b_commonTotal += b[e];
     });
-    var value = (a_commonTotal + b_commonTotal) / (a_total + b_total);
+    // var value = (a_commonTotal + b_commonTotal) / (a_total + b_total);
+    var value = common.length / (a_keys.length + b_keys.length - common.length);
+    value = (value <= 0.24) ? 0 : value;
     return value;
 }
 
