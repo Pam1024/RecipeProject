@@ -17,7 +17,7 @@ d3.csv("Data/ingredients-2.csv", function (error, data) {
             countries[cuisine][ingredient] = (countries[cuisine][ingredient] || 0) + 1;
         })
     });
-    // console.log(nodes);
+ 
     var i = 0;
     var size = Object.keys(countries).length;
     for (var key in countries) {
@@ -40,7 +40,6 @@ d3.csv("Data/ingredients-2.csv", function (error, data) {
 
         i++;
     }
-    // console.log(nodes_name, nodes_name2, typeof countries);
     i = 0;
     for (var key in nodes_name1) {
         for (var key2 in nodes_name2) {
@@ -69,8 +68,6 @@ d3.csv("Data/ingredients-2.csv", function (error, data) {
         links: links
     }
     data = [], nodes = [], links = [], nodes_name = [], countries = [];
-    console.log(graph);
-
     var chart = d3.select("#chart").append("svg").chart("Sankey.Path");
     chart
         .name(label)
@@ -91,13 +88,6 @@ d3.csv("Data/ingredients-2.csv", function (error, data) {
     function color(node, depth) {
         var id = node.node;
         if (id >= 19) id = id - 19;
-        // if (colors(id)) {
-        //     return colors(id);
-        // } else if (depth > 0 && node.targetLinks && node.targetLinks.length == 1) {
-        //     return color(node.targetLinks[0].source, depth - 1);
-        // } else {
-        //     return null;
-        // }
         return colors(id);
     }
 });
@@ -115,7 +105,6 @@ function cal_value(a, b) {
         a_commonTotal += a[e];
         b_commonTotal += b[e];
     });
-    // var value = (a_commonTotal + b_commonTotal) / (a_total + b_total);
     var value = common.length / (a_keys.length + b_keys.length - common.length);
     value = (value <= 0.24) ? 0 : value;
     return value;
