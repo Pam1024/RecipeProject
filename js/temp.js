@@ -1,4 +1,5 @@
 var nodes = [], links = [], nodes_name = [], nodes_name1 = [], nodes_name2 = [], countries = [], graph = {};
+var max = 0, min = 1;
 
 var colors = d3.scale.category10();
 // ref:/cdn.rawgit.com/q-m/d3.chart.sankey/master/example/data/product.json
@@ -17,7 +18,7 @@ d3.csv("Data/ingredients-2.csv", function (error, data) {
             countries[cuisine][ingredient] = (countries[cuisine][ingredient] || 0) + 1;
         })
     });
- 
+
     var i = 0;
     var size = Object.keys(countries).length;
     for (var key in countries) {
@@ -62,7 +63,7 @@ d3.csv("Data/ingredients-2.csv", function (error, data) {
             }
         }
     }
-
+    console.log("max:" + max + " min:" + min);
     graph = {
         nodes: nodes_name,
         links: links
@@ -107,6 +108,13 @@ function cal_value(a, b) {
     });
     var value = common.length / (a_keys.length + b_keys.length - common.length);
     value = (value <= 0.24) ? 0 : value;
+    max = (max < value) ? value : max;
+    min = (min > value && value != 0) ? value : min;
+    var scale = d3.scale.linear().domain([0.24130879345603273, 0.3493975903614458]).range([1, 20]);
+    if (value != 0) {
+        value = scale(value);
+    }
+
     return value;
 }
 

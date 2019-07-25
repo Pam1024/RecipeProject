@@ -122,10 +122,6 @@ function wordCloud(selector) {
 
 }
 
-
-//This method tells the word cloud to redraw with a new set of words.
-//In reality the new words would probably come from a server request,
-// user input or some other source.
 function showNewWords(vis) {
 
     vis.update(getWords());
