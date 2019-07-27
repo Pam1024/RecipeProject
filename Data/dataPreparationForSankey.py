@@ -188,7 +188,7 @@ links = links[:-1] + "]"
 
 jsonString = "{" + nodes + "," + links + "}"
 
-text_file = open(r'D:\Studies\DalhousieUniversity\Summer2019\VisualAnalytics\Project\RecipeProject\Data\sankeyJson.json', "w")
+text_file = open(r'..\Data\sankeyJson.json', "w")
 text_file.write(jsonString)
 text_file.close()
 
