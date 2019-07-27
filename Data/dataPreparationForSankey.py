@@ -5,67 +5,67 @@ import re
 from math import isnan
 import sys,os
 
-## The code below is used to process raw data and create dataset that consists of
-## recipe ingredients that are stemmed and sorted withing ingredient:
+#### The code below is used to process raw data and create dataset that consists of
+#### recipe ingredients that are stemmed and sorted withing ingredient:
 
-##df_original = pd.read_csv(r'..\Data\cuisine_version2.csv')
-##df = df_original.copy(deep = True)
-##
-##df.drop(['id','recipeName', 'PrepTime','img','flavors', 'bow'], axis= 1, inplace=True)
-##
-##def splitToList(stringValue):
-##    ## strip [] {} parentheses:
-##    stringValue = stringValue.replace(', ',',')
-##    stringValue = stringValue.replace('\'','')
-##    stringValue = stringValue[1:-1]
-##    splitted = []
-##    for string in stringValue.split(","):
-##        splitted.append(string.strip())
-##    return splitted
-##
-##df['ingredients'] = df['ingredients'].apply(splitToList)
-##
-##import nltk
-##
-##import spacy
-##spcy = spacy.load('en_core_web_lg')
-##
-##from nltk.stem import PorterStemmer
-##ps = PorterStemmer()
-##
-##def makeIngredientsStemmedNouns(ingredients):
-##    ingredientsOnlyNouns = []
-##    for ingredient in ingredients:
-##        nouns = [ps.stem(ent.text) for ent in spcy(ingredient) if ent.pos_ == 'NOUN']
-##        nouns.sort()
-##        ingredientsOnlyNouns += [' '.join(nouns)]
-##    return ingredientsOnlyNouns
-##
-##
-##df['ingredients'] = df['ingredients'].apply(makeIngredientsStemmedNouns)
-##
-##from sklearn.preprocessing import MultiLabelBinarizer
-##mlb = MultiLabelBinarizer()
-##
-##ingredients_mlb = mlb.fit_transform(df['ingredients'])
-##
-##df_prepcocessed = df.join(pd.DataFrame(ingredients_mlb,
-##                          columns=mlb.classes_,
-##                          index=df.index))
-##
-##df = df_prepcocessed.copy('deep')
-##
-###### we don't need the 'ingredients' column anymore.
-###### we also remove the '' column that was inserted because
-###### the function makeIngredientsStemmedNouns() returns list that contains ''
-###### in cases when some ingredient does not contain a noun (for example, if
-###### ingredient is 'seasoning', that function will return '' because nltk.pos_tag
-###### will tag it as 'VBG')
-##df.drop(['ingredients', ''], axis= 1, inplace=True)
-##df.to_csv("D:\Studies\DalhousieUniversity\Summer2019\VisualAnalytics\Project\RecipeProject\Data\stemmed_noun_ingredients.csv")
+df_original = pd.read_csv(r'..\Data\cuisine_version2.csv')
+df = df_original.copy(deep = True)
+
+df.drop(['id','recipeName', 'PrepTime','img','flavors', 'bow'], axis= 1, inplace=True)
+
+def splitToList(stringValue):
+    ## strip [] {} parentheses:
+    stringValue = stringValue.replace(', ',',')
+    stringValue = stringValue.replace('\'','')
+    stringValue = stringValue[1:-1]
+    splitted = []
+    for string in stringValue.split(","):
+        splitted.append(string.strip())
+    return splitted
+
+df['ingredients'] = df['ingredients'].apply(splitToList)
+
+import nltk
+
+import spacy
+spcy = spacy.load('en_core_web_lg')
+
+from nltk.stem import PorterStemmer
+ps = PorterStemmer()
+
+def makeIngredientsStemmedNouns(ingredients):
+    ingredientsOnlyNouns = []
+    for ingredient in ingredients:
+        nouns = [ps.stem(ent.text) for ent in spcy(ingredient) if ent.pos_ == 'NOUN']
+        nouns.sort()
+        ingredientsOnlyNouns += [' '.join(nouns)]
+    return ingredientsOnlyNouns
+
+
+df['ingredients'] = df['ingredients'].apply(makeIngredientsStemmedNouns)
+
+from sklearn.preprocessing import MultiLabelBinarizer
+mlb = MultiLabelBinarizer()
+
+ingredients_mlb = mlb.fit_transform(df['ingredients'])
+
+df_prepcocessed = df.join(pd.DataFrame(ingredients_mlb,
+                          columns=mlb.classes_,
+                          index=df.index))
+
+df = df_prepcocessed.copy('deep')
+
+#### we don't need the 'ingredients' column anymore.
+#### we also remove the '' column that was inserted because
+#### the function makeIngredientsStemmedNouns() returns list that contains ''
+#### in cases when some ingredient does not contain a noun (for example, if
+#### ingredient is 'seasoning', that function will return '' because nltk.pos_tag
+#### will tag it as 'VBG')
+df.drop(['ingredients', ''], axis= 1, inplace=True)
+df.to_csv("D:\Studies\DalhousieUniversity\Summer2019\VisualAnalytics\Project\RecipeProject\Data\stemmed_noun_ingredients.csv")
 
 ## stemmed_noun_ingredients.csv file was created using the code above.
-df_original = pd.read_csv(r'..\Data\stemmed_noun_ingredients.csv')
+##df = pd.read_csv(r'..\Data\stemmed_noun_ingredients.csv')
 
 df_cuisine = df['cuisine']
 df_ingredients = df.drop(['cuisine'], axis= 1)
@@ -146,7 +146,7 @@ for cuisine_outer in cuisineToCuisineToPercentage.keys():
 
 for cuisine_outer in cuisineToCuisineToPercentage.keys():
     for cuisine_inner in cuisineToCuisineToPercentage[cuisine_outer].keys():
-        if cuisineToCuisineToPercentage[cuisine_outer][cuisine_inner] < referenceCount[cuisine_outer] / 19:
+        if cuisineToCuisineToPercentage[cuisine_outer][cuisine_inner] < referenceCount[cuisine_outer] / 15:
             cuisineToCuisineToPercentage[cuisine_outer][cuisine_inner] = 0
 
 sortedByValues = sorted(referenceCount.items(), key = lambda kv:(kv[1], kv[0]))
@@ -191,20 +191,3 @@ jsonString = "{" + nodes + "," + links + "}"
 text_file = open(r'..\Data\sankeyJson.json', "w")
 text_file.write(jsonString)
 text_file.close()
-
-maxx = 0
-for cuisine_outer in cuisineToCuisineToPercentage.keys():
-    for cuisine_inner in cuisineToCuisineToPercentage[cuisine_outer].keys():
-        if cuisineToCuisineToPercentage[cuisine_outer][cuisine_inner] > maxx:
-            maxx = cuisineToCuisineToPercentage[cuisine_outer][cuisine_inner]
-
-minn = 1000
-for cuisine_outer in cuisineToCuisineToPercentage.keys():
-    for cuisine_inner in cuisineToCuisineToPercentage[cuisine_outer].keys():
-        if cuisineToCuisineToPercentage[cuisine_outer][cuisine_inner] < minn and \
-            cuisineToCuisineToPercentage[cuisine_outer][cuisine_inner] != 0:
-            minn = cuisineToCuisineToPercentage[cuisine_outer][cuisine_inner]
-
-
-
-
