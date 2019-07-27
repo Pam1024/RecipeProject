@@ -44,6 +44,15 @@
                 <button id="similarity" type="button" class="btn active btn-outline-info btn-lg">Cuisine Similarity</button>
             </div>
 
+            <div class="button_div container  justify-content-center " style="text-align: center;">
+                <h5>Change Visibility</h5>
+            </div>
+
+            <div class="button_div container  justify-content-center " style="text-align: center;">
+                <input id="visibility-slider" type="range" min="0" max="20" value="10">
+            </div>
+            
+
             <div class="explain_div container  justify-content-center " style="text-align: center;">
                 <p id="explain" class="border">Bacon ipsum dolor amet pork loin tail meatball pig. Pork chop tenderloin
                     chuck sausage spare ribs pork loin pork t-bone
@@ -54,10 +63,7 @@
         </div>
 
         <!-- ploting area-->
-        <div class="col-9 " id='chart-area'>
-            <svg id='chart' width="900" height="550">
-                <!-- <text x=350 y=250>chart area</text> -->
-            </svg>
+        <div id="chart-div" class="col-9 " id='chart-area'>
         </div>
 
     </div>
