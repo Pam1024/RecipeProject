@@ -31,3 +31,10 @@ p {
 .btn-lg {
     font-size: 1em;
 }
+.tooltip {
+    font-size: 18px;
+    margin-top: 22px;
+    background-color: goldenrod;
+    border-radius: 4px;
+    opacity:0.7;
+}

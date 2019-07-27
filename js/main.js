@@ -1,9 +1,9 @@
 var dataset = [];
 var data_length;
 var words_amount = 20;
-var font_max = 60, font_min = 10;
+var font_max = 60, font_min = 11;
 
-d3.csv("/Data/test.csv", function (data) {
+d3.csv("/Data/wordcloud.csv", function (data) {
     dataset = normalizedFdist(data);
     data_length = dataset.length;
     //Create a new instance of the word cloud visualisation.
@@ -19,16 +19,23 @@ function normalizedFdist(data) {
         d.fdist = +d.fdist;
     });
 
-    data.forEach(function (row) {
+    data.forEach(function (row, index) {
         var a = data.map(function (d, i) {
-            return d.fdist;
+            if (i < 100) {
+                return d.fdist;
+            }
+
         })
         var val = d3.scale.linear()
             .domain(
                 d3.extent(a))
             .range([font_min, font_max]);
+        if (index < 100) {
+            row['fontSize'] = val(row.fdist);
+        } else {
+            row['fontSize'] = 0;
+        }
 
-        row['fontSize'] = val(row.fdist);
     });
 
     return data;
@@ -38,7 +45,7 @@ function getWords() {
     // var tempdata = dataset;
     // var result = [];
     for (i = 0; i < words_amount; i++) {
-        var rand = Math.floor(Math.random() * (data_length - 1));
+        var rand = Math.floor(Math.random() * (dataset.length - 1));
         var temp = dataset[0];
         dataset[0] = dataset[rand];
         dataset[rand] = temp;
@@ -54,7 +61,7 @@ function wordCloud(selector) {
     //Construct the word cloud's SVG element
     var svg = d3.select(selector).append("svg")
         .attr("width", 800)
-        .attr("height", 500)
+        .attr("height", 600)
         .append("g")
         .attr("transform", "translate(400,250)");
 
@@ -81,6 +88,22 @@ function wordCloud(selector) {
             })
             .style("fill-opacity", 1);
 
+        cloud.on("mouseenter", function (d) {
+
+            var mouse = d3.mouse(this);
+            var text = "<h3>Ingredients: " + d.ingredients + "</h3><br>";
+            text += "Fdist value: " + d.fdist + "<br>";
+            text += "Normalized value: " + d.fontSize;
+            var color = d3.select(this).style('fill');
+            tooltip(color, text, mouse[0], mouse[1], true);
+
+        })
+            .on("mouseout", function (d) {
+                if (true) {
+                    tooltip(null, null, null, null, false);
+                }
+            });
+
         //Exiting words
         cloud.exit()
             .transition()
@@ -95,8 +118,9 @@ function wordCloud(selector) {
         update: function (newWords) {
             d3.layout.cloud().size([750, 450])
                 .words(newWords)
-                .padding(1)
-                .rotate(function () { return ~~(Math.random() * 2) *90; })
+                .padding(2)
+                .rotate(function () { return ~~(Math.random() * 2) * 90; })
+                .text(function (d) { return d.ingredients; })
                 .font("Impact")
                 .fontSize(function (d) { return d.fontSize; })
                 .on("end", draw)
@@ -106,14 +130,10 @@ function wordCloud(selector) {
 
 }
 
-
-//This method tells the word cloud to redraw with a new set of words.
-//In reality the new words would probably come from a server request,
-// user input or some other source.
 function showNewWords(vis) {
 
     vis.update(getWords());
-    setTimeout(function () { showNewWords(vis) }, 4000)
+    //setTimeout(function () { showNewWords(vis) }, 4000)
 }
 
 // button click
@@ -123,4 +143,17 @@ function distinctiveClick() {
 
 function similarityClick() {
     window.location = "similarity.html";
+}
+
+function tooltip(color, text, x, y, show) {
+    var display_tool = show ? "block" : "none";
+    var root = d3.select('#tooltip')
+        .classed("tooltip", true)
+        .style({
+            position: "absolute",
+            left: x + 30 + "px",
+            top: y + 100 + "px",
+            display: display_tool,
+            'background-color': color
+        }).html(text);
 }
