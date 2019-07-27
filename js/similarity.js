@@ -1,3 +1,5 @@
+// adapted from https: //bl.ocks.org/wvengen/cab9b01816490edb7083
+
 
 // button click
 function popularClick() {
@@ -20,7 +22,7 @@ var colors = {
     'german': '#367d85',
     'greek': '#b57edc',
     'hawaiian': '#fdd5b4',
-    'hungarian': '#ffd1d6',
+    'hungarian': '#b57edc',
     'indian': '#97ba4c',
     'irish': '#fdd8ee',
     'italian': '	#411313',

@@ -1,0 +1,420 @@
+{
+    "nodes": [{
+            "id": "soy sauce",
+            "group": "chinese"
+        },
+        {
+            "id": "sesame oil",
+            "group": "chinese"
+        },
+        {
+            "id": "corn starch",
+            "group": "chinese"
+        },
+        {
+            "id": "shaoxing wine",
+            "group": "chinese"
+        },
+        {
+            "id": "oyster sauce",
+            "group": "chinese"
+        },
+        {
+            "id": "mirin",
+            "group": "japanese"
+        },
+        {
+            "id": "sake",
+            "group": "japanese"
+        },
+        {
+            "id": "sugar",
+            "group": "japanese"
+        },
+        {
+            "id": "ginger",
+            "group": "japanese"
+        },
+        {
+            "id": "fish sauce",
+            "group": "thai"
+        },
+        {
+            "id": "chili",
+            "group": "thai"
+        },
+        {
+            "id": "coconut milk",
+            "group": "thai"
+        },
+        {
+            "id": "beansprouts",
+            "group": "thai"
+        },
+        {
+            "id": "garlic",
+            "group": "thai"
+        },
+        {
+            "id": "garam masala",
+            "group": "indian"
+        },
+        {
+            "id": "salt",
+            "group": "indian"
+        },
+        {
+            "id": "onions",
+            "group": "indian"
+        },
+        {
+            "id": "ground turmeric",
+            "group": "indian"
+        },
+        {
+            "id": "flour",
+            "group": "french"
+        },
+        {
+            "id": "olive oil",
+            "group": "french"
+        },
+        {
+            "id": "grated parmesan cheese",
+            "group": "italian"
+        },
+        {
+            "id": "shredded mzarella cheese",
+            "group": "italian"
+        },
+        {
+            "id": "marinara sauce",
+            "group": "italian"
+        },
+        {
+            "id": "preserved lemon",
+            "group": "moroccan"
+        },
+        {
+            "id": "ground cumin",
+            "group": "moroccan"
+        },
+        {
+            "id": "dried apricot",
+            "group": "moroccan"
+        },
+        {
+            "id": "saffron threads",
+            "group": "spanish"
+        },
+        {
+            "id": "garlic cloves",
+            "group": "spanish"
+        }
+    ],
+    "links": [{
+            "source": "soy sauce",
+            "target": "sesame oil"
+        },
+        {
+            "source": "soy sauce",
+            "target": "corn starch"
+        },
+        {
+            "source": "soy sauce",
+            "target": "shaoxing wine"
+        },
+        {
+            "source": "soy sauce",
+            "target": "oyster sauce"
+        },
+        {
+            "source": "sesame oil",
+            "target": "corn starch"
+        },
+        {
+            "source": "sesame oil",
+            "target": "shaoxing wine"
+        },
+        {
+            "source": "sesame oil",
+            "target": "oyster sauce"
+        },
+        {
+            "source": "corn starch",
+            "target": "shaoxing wine"
+        },
+        {
+            "source": "corn starch",
+            "target": "oyster sauce"
+        },
+        {
+            "source": "shaoxing wine",
+            "target": "oyster sauce"
+        },
+        {
+            "source": "mirin",
+            "target": "sake"
+        },
+        {
+            "source": "mirin",
+            "target": "soy sauce"
+        },
+        {
+            "source": "mirin",
+            "target": "sugar"
+        },
+        {
+            "source": "mirin",
+            "target": "ginger"
+        },
+        {
+            "source": "sake",
+            "target": "soy sauce"
+        },
+        {
+            "source": "sake",
+            "target": "sugar"
+        },
+        {
+            "source": "sake",
+            "target": "ginger"
+        },
+        {
+            "source": "soy sauce",
+            "target": "sugar"
+        },
+        {
+            "source": "soy sauce",
+            "target": "ginger"
+        },
+        {
+            "source": "sugar",
+            "target": "ginger"
+        },
+        {
+            "source": "fish sauce",
+            "target": "chili"
+        },
+        {
+            "source": "fish sauce",
+            "target": "coconut milk"
+        },
+        {
+            "source": "fish sauce",
+            "target": "beansprouts"
+        },
+        {
+            "source": "fish sauce",
+            "target": "garlic"
+        },
+        {
+            "source": "chili",
+            "target": "coconut milk"
+        },
+        {
+            "source": "chili",
+            "target": "beansprouts"
+        },
+        {
+            "source": "chili",
+            "target": "garlic"
+        },
+        {
+            "source": "coconut milk",
+            "target": "beansprouts"
+        },
+        {
+            "source": "coconut milk",
+            "target": "garlic"
+        },
+        {
+            "source": "beansprouts",
+            "target": "garlic"
+        },
+        {
+            "source": "garam masala",
+            "target": "chili"
+        },
+        {
+            "source": "garam masala",
+            "target": "salt"
+        },
+        {
+            "source": "garam masala",
+            "target": "onions"
+        },
+        {
+            "source": "garam masala",
+            "target": "ground turmeric"
+        },
+        {
+            "source": "chili",
+            "target": "salt"
+        },
+        {
+            "source": "chili",
+            "target": "onions"
+        },
+        {
+            "source": "chili",
+            "target": "ground turmeric"
+        },
+        {
+            "source": "salt",
+            "target": "onions"
+        },
+        {
+            "source": "salt",
+            "target": "ground turmeric"
+        },
+        {
+            "source": "onions",
+            "target": "ground turmeric"
+        },
+        {
+            "source": "salt",
+            "target": "flour"
+        },
+        {
+            "source": "salt",
+            "target": "olive oil"
+        },
+        {
+            "source": "salt",
+            "target": "garlic"
+        },
+        {
+            "source": "flour",
+            "target": "olive oil"
+        },
+        {
+            "source": "flour",
+            "target": "onions"
+        },
+        {
+            "source": "flour",
+            "target": "garlic"
+        },
+        {
+            "source": "olive oil",
+            "target": "onions"
+        },
+        {
+            "source": "olive oil",
+            "target": "garlic"
+        },
+        {
+            "source": "onions",
+            "target": "garlic"
+        },
+        {
+            "source": "grated parmesan cheese",
+            "target": "salt"
+        },
+        {
+            "source": "grated parmesan cheese",
+            "target": "olive oil"
+        },
+        {
+            "source": "grated parmesan cheese",
+            "target": "shredded mzarella cheese"
+        },
+        {
+            "source": "grated parmesan cheese",
+            "target": "marinara sauce"
+        },
+        {
+            "source": "salt",
+            "target": "shredded mzarella cheese"
+        },
+        {
+            "source": "salt",
+            "target": "marinara sauce"
+        },
+        {
+            "source": "olive oil",
+            "target": "shredded mzarella cheese"
+        },
+        {
+            "source": "olive oil",
+            "target": "marinara sauce"
+        },
+        {
+            "source": "shredded mzarella cheese",
+            "target": "marinara sauce"
+        },
+        {
+            "source": "preserved lemon",
+            "target": "olive oil"
+        },
+        {
+            "source": "preserved lemon",
+            "target": "ground cumin"
+        },
+        {
+            "source": "preserved lemon",
+            "target": "salt"
+        },
+        {
+            "source": "preserved lemon",
+            "target": "dried apricot"
+        },
+        {
+            "source": "olive oil",
+            "target": "ground cumin"
+        },
+        {
+            "source": "olive oil",
+            "target": "salt"
+        },
+        {
+            "source": "olive oil",
+            "target": "dried apricot"
+        },
+        {
+            "source": "ground cumin",
+            "target": "salt"
+        },
+        {
+            "source": "ground cumin",
+            "target": "dried apricot"
+        },
+        {
+            "source": "salt",
+            "target": "dried apricot"
+        },
+        {
+            "source": "olive oil",
+            "target": "saffron threads"
+        },
+        {
+            "source": "olive oil",
+            "target": "garlic cloves"
+        },
+        {
+            "source": "saffron threads",
+            "target": "onions"
+        },
+        {
+            "source": "saffron threads",
+            "target": "salt"
+        },
+        {
+            "source": "saffron threads",
+            "target": "garlic cloves"
+        },
+        {
+            "source": "onions",
+            "target": "salt"
+        },
+        {
+            "source": "onions",
+            "target": "garlic cloves"
+        },
+        {
+            "source": "salt",
+            "target": "garlic cloves"
+        }
+    ]
+}

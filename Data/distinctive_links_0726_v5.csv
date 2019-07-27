@@ -1,0 +1,77 @@
+source,target
+soy sauce,sesame oil
+soy sauce,corn starch
+soy sauce,shaoxing wine
+soy sauce,oyster sauce
+sesame oil,corn starch
+sesame oil,shaoxing wine
+sesame oil,oyster sauce
+corn starch,shaoxing wine
+corn starch,oyster sauce
+shaoxing wine,oyster sauce
+mirin,sake
+mirin,soy sauce
+mirin,sugar
+mirin,ginger
+sake,soy sauce
+sake,sugar
+sake,ginger
+soy sauce,sugar
+soy sauce,ginger
+sugar,ginger
+fish sauce,chili
+fish sauce,coconut milk
+fish sauce,beansprouts
+fish sauce,garlic
+chili,coconut milk
+chili,beansprouts
+chili,garlic
+coconut milk,beansprouts
+coconut milk,garlic
+beansprouts,garlic
+garam masala,chili
+garam masala,salt
+garam masala,onions
+garam masala,ground turmeric
+chili,salt
+chili,onions
+chili,ground turmeric
+salt,onions
+salt,ground turmeric
+onions,ground turmeric
+salt,flour
+salt,olive oil
+salt,garlic
+flour,olive oil
+flour,onions
+flour,garlic
+olive oil,onions
+olive oil,garlic
+onions,garlic
+grated parmesan cheese,salt
+grated parmesan cheese,olive oil
+grated parmesan cheese,shredded mzarella cheese
+grated parmesan cheese,marinara sauce
+salt,shredded mzarella cheese
+salt,marinara sauce
+olive oil,shredded mzarella cheese
+olive oil,marinara sauce
+shredded mzarella cheese,marinara sauce
+preserved lemon,olive oil
+preserved lemon,ground cumin
+preserved lemon,salt
+preserved lemon,dried apricot
+olive oil,ground cumin
+olive oil,salt
+olive oil,dried apricot
+ground cumin,salt
+ground cumin,dried apricot
+salt,dried apricot
+olive oil,saffron threads
+olive oil,garlic cloves
+saffron threads,onions
+saffron threads,salt
+saffron threads,garlic cloves
+onions,salt
+onions,garlic cloves
+salt,garlic cloves

@@ -12,13 +12,13 @@ var simulation = d3.forceSimulation()
     .force("link", d3.forceLink().id(function (d) {
         return d.id;
     }))
-    .force("charge", d3.forceManyBody().strength(-180))
-    .force("collide", d3.forceCollide(10).strength(0.7))
+    .force("charge", d3.forceManyBody().strength(-120))
+    .force("collide", d3.forceCollide(10).strength(0.9))
     .force("center", d3.forceCenter(width / 2, height / 2));
 
 
 
-d3.json("/Data/node-link-v4.json").then(function (graph) {
+d3.json("/Data/distinctive_improve.json").then(function (graph) {
   
 
     var link = svg.append("g")
