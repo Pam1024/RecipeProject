@@ -1,9 +1,9 @@
 var dataset = [];
 var data_length;
 var words_amount = 20;
-var font_max = 60, font_min = 10;
+var font_max = 60, font_min = 11;
 
-d3.csv("/Data/test.csv", function (data) {
+d3.csv("/Data/wordcloud.csv", function (data) {
     dataset = normalizedFdist(data);
     data_length = dataset.length;
     //Create a new instance of the word cloud visualisation.
@@ -19,16 +19,23 @@ function normalizedFdist(data) {
         d.fdist = +d.fdist;
     });
 
-    data.forEach(function (row) {
+    data.forEach(function (row, index) {
         var a = data.map(function (d, i) {
-            return d.fdist;
+            if (i < 100) {
+                return d.fdist;
+            }
+
         })
         var val = d3.scale.linear()
             .domain(
                 d3.extent(a))
             .range([font_min, font_max]);
+        if (index < 100) {
+            row['fontSize'] = val(row.fdist);
+        } else {
+            row['fontSize'] = 0;
+        }
 
-        row['fontSize'] = val(row.fdist);
     });
 
     return data;
@@ -38,7 +45,7 @@ function getWords() {
     // var tempdata = dataset;
     // var result = [];
     for (i = 0; i < words_amount; i++) {
-        var rand = Math.floor(Math.random() * (data_length - 1));
+        var rand = Math.floor(Math.random() * (dataset.length - 1));
         var temp = dataset[0];
         dataset[0] = dataset[rand];
         dataset[rand] = temp;
@@ -54,7 +61,7 @@ function wordCloud(selector) {
     //Construct the word cloud's SVG element
     var svg = d3.select(selector).append("svg")
         .attr("width", 800)
-        .attr("height", 500)
+        .attr("height", 600)
         .append("g")
         .attr("transform", "translate(400,250)");
 
@@ -111,8 +118,9 @@ function wordCloud(selector) {
         update: function (newWords) {
             d3.layout.cloud().size([750, 450])
                 .words(newWords)
-                .padding(1)
+                .padding(2)
                 .rotate(function () { return ~~(Math.random() * 2) * 90; })
+                .text(function (d) { return d.ingredients; })
                 .font("Impact")
                 .fontSize(function (d) { return d.fontSize; })
                 .on("end", draw)
