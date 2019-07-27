@@ -4,11 +4,7 @@
     text-align: center;
 }
 
-#chart {
-    display: inline-block;
-    /* border: 1px solid red; */
-    margin: 50px 20px 20px 20px;
-}
+
 
 button {
     width: 70%;
@@ -27,24 +23,41 @@ p {
     align: left;
     display: inline-block;
 }
-/* body {
+
+
+  .btn-lg {
+    font-size: 1em;
+  }
+
+  /* body {
     padding: 10px;
     min-width: 600px;
     max-width: 1200px;
     margin: auto;
-  }
-  #chart {
+  } */
+
+  /* #chart {
     height: 500px;
     font: 13px sans-serif;
   } */
+
+  #chart {
+    display: inline-block;
+    /* border: 1px solid red; */
+    margin: 40px 20px 20px 20px;
+     font: sans-serif;
+  }
+
   .node rect {
     fill-opacity: .9;
     shape-rendering: crispEdges;
     stroke-width: 0;
   }
+
   .node text {
     text-shadow: 0 1px 0 #fff;
   }
+
   .link {
     fill: none;
     stroke: #000;
@@ -61,3 +74,4 @@ p {
   .btn-lg {
     font-size: 1em;
   }
+  } 

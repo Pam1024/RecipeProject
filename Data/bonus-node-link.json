@@ -1,0 +1,236 @@
+{
+    "nodes": [{
+            "id": "mexican",
+            "group": "mexican"
+        },
+        {
+            "id": "japanese",
+            "group": "japanese"
+        },
+        {
+            "id": "greek",
+            "group": "greek"
+        },
+        {
+            "id": "portuguese",
+            "group": "portuguese"
+        },
+        {
+            "id": "chinese",
+            "group": "chinese"
+        },
+        {
+            "id": "spanish",
+            "group": "spanish"
+        },
+        {
+            "id": "american",
+            "group": "american"
+        },
+        {
+            "id": "thai",
+            "group": "thai"
+        },
+        {
+            "id": "hawaiian",
+            "group": "hawaiian"
+        },
+        {
+            "id": "english",
+            "group": "english"
+        },
+        {
+            "id": "french",
+            "group": "french"
+        },
+        {
+            "id": "german",
+            "group": "german"
+        },
+        {
+            "id": "cuban",
+            "group": "cuban"
+        },
+        {
+            "id": "indian",
+            "group": "indian"
+        },
+        {
+            "id": "italian",
+            "group": "italian"
+        },
+        {
+            "id": "hungarian",
+            "group": "hungarian"
+        },
+        {
+            "id": "irish",
+            "group": "irish"
+        },
+        {
+            "id": "swedish",
+            "group": "swedish"
+        }
+    ],
+    "links": [{
+            "source": "cuban",
+            "target": "mexican",
+            "value": 4.433280826
+        },
+        {
+            "source": "cuban",
+            "target": "spanish",
+            "value": 3.895996357
+        },
+        {
+            "source": "cuban",
+            "target": "american",
+            "value": 3.131675639
+        },
+        {
+            "source": "cuban",
+            "target": "portuguese",
+            "value": 6.25
+        },
+        {
+            "source": "chinese",
+            "target": "hawaiian",
+            "value": 3.17755721
+        },
+        {
+            "source": "chinese",
+            "target": "japanese",
+            "value": 7.212903226
+        },
+        {
+            "source": "chinese",
+            "target": "thai",
+            "value": 4.973807554
+        },
+        {
+            "source": "indian",
+            "target": "thai",
+            "value": 3.498864005
+        },
+        {
+            "source": "french",
+            "target": "english",
+            "value": 5.330522191
+        },
+        {
+            "source": "french",
+            "target": "italian",
+            "value": 5.037919827
+        },
+        {
+            "source": "french",
+            "target": "spanish",
+            "value": 3.275933688
+        },
+        {
+            "source": "french",
+            "target": "american",
+            "value": 5.022991193
+        },
+        {
+            "source": "french",
+            "target": "irish",
+            "value": 4.027711419
+        },
+        {
+            "source": "french",
+            "target": "german",
+            "value": 3.490543179
+        },
+        {
+            "source": "french",
+            "target": "portuguese",
+            "value": 7.8125
+        },
+        {
+            "source": "greek",
+            "target": "italian",
+            "value": 4.724335317
+        },
+        {
+            "source": "english",
+            "target": "american",
+            "value": 4.628071912
+        },
+        {
+            "source": "english",
+            "target": "irish",
+            "value": 8.988877654
+        },
+        {
+            "source": "english",
+            "target": "german",
+            "value": 4.078062317
+        },
+        {
+            "source": "english",
+            "target": "swedish",
+            "value": 7.963354475
+        },
+        {
+            "source": "english",
+            "target": "portuguese",
+            "value": 3.125
+        },
+        {
+            "source": "italian",
+            "target": "american",
+            "value": 4.152432324
+        },
+        {
+            "source": "italian",
+            "target": "portuguese",
+            "value": 3.125
+        },
+        {
+            "source": "mexican",
+            "target": "american",
+            "value": 3.86211563
+        },
+        {
+            "source": "spanish",
+            "target": "hungarian",
+            "value": 4.883077697
+        },
+        {
+            "source": "spanish",
+            "target": "portuguese",
+            "value": 10.9375
+        },
+        {
+            "source": "hungarian",
+            "target": "german",
+            "value": 4.576255101
+        },
+        {
+            "source": "hungarian",
+            "target": "swedish",
+            "value": 4.031781227
+        },
+        {
+            "source": "hungarian",
+            "target": "portuguese",
+            "value": 8.056402439
+        },
+        {
+            "source": "american",
+            "target": "german",
+            "value": 3.118635649
+        },
+        {
+            "source": "american",
+            "target": "portuguese",
+            "value": 3.125
+        },
+        {
+            "source": "german",
+            "target": "swedish",
+            "value": 3.808513147
+        }
+    ]
+}
