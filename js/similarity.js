@@ -8,27 +8,7 @@ function distinctiveClick() {
     window.location = "distinctive.html";
 }
 
-var colors = {
-
-    'american': '#000000',
-    'chinese': '	#000000',
-    'cuban': '#000000',
-    'english': '#000000',
-    'french': '#000000',
-    'german': '#000000',
-    'greek': '#000000',
-    'hawaiian': '#000000',
-    'hungarian': '#000000',
-    'indian': '#000000',
-    'irish': '#000000',
-    'italian': '	#000000',
-    'japanese': '#000000',
-    'mexican': '#000000',
-    'portuguese': '#000000',
-    'spanish': '	#000000',
-    'swedish': '#000000',
-    'thai': '#000000'
-};
+var colors = d3.scale.category20();
 
 function label(node) {
     return node.name;
@@ -36,13 +16,8 @@ function label(node) {
 
 function color(node, depth) {
     var id = node.name;
-    if (colors[id]) {
-        return colors[id];
-    } else if (depth > 0 && node.targetLinks && node.targetLinks.length == 1) {
-        return color(node.targetLinks[0].source, depth - 1);
-    } else {
-        return null;
-    }
+    if (id >= 19) id = id - 19;
+    return colors(id);
 }
 
 var json = null;

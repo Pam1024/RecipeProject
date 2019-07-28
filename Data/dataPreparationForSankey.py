@@ -71,23 +71,12 @@ df_cuisine = df['cuisine']
 df_ingredients = df.drop(['cuisine'], axis= 1)
 
 ## Drop columns that contai only one '1' (meaning that this ingredient is used only by one recipe)
-dropped_columns = []
 df_only_shared_ing = df_ingredients
-##for col in df_only_shared_ing.columns:
-##    if len(df[df[col] == 1]) <= 1200:
-##        dropped_columns.append(col)
-##        df_only_shared_ing = df_only_shared_ing.drop(col,axis=1)
 
 from sklearn.cluster import KMeans
 import math
 number_of_clusters = int(math.sqrt((len(df_only_shared_ing.index)/2)))
 kmeans = KMeans(n_clusters=number_of_clusters, n_init = 10, n_jobs = -1).fit(df_only_shared_ing)
-mp = {}
-for label in kmeans.labels_:
-    if label not in mp.keys():
-        mp[label] = 1
-    else:
-        mp[label] += 1
 
 
 cuisine_vs_cluster = pd.DataFrame(df_cuisine).join(pd.DataFrame(kmeans.labels_,
@@ -144,10 +133,12 @@ for cuisine_outer in cuisineToCuisineToPercentage.keys():
         referenceCount[cuisine_outer] += cuisineToCuisineToPercentage[cuisine_outer][cuisine_inner]
 
 
-for cuisine_outer in cuisineToCuisineToPercentage.keys():
-    for cuisine_inner in cuisineToCuisineToPercentage[cuisine_outer].keys():
-        if cuisineToCuisineToPercentage[cuisine_outer][cuisine_inner] < referenceCount[cuisine_outer] / 15:
-            cuisineToCuisineToPercentage[cuisine_outer][cuisine_inner] = 0
+##for cuisine_outer in cuisineToCuisineToPercentage.keys():
+##    for cuisine_inner in cuisineToCuisineToPercentage[cuisine_outer].keys():
+##        ## 19 is used to gent an average count for cuisine-suisine pairs.
+##        ## This way we drop counts that are below average:
+##        if cuisineToCuisineToPercentage[cuisine_outer][cuisine_inner] < referenceCount[cuisine_outer] / 19:
+##            cuisineToCuisineToPercentage[cuisine_outer][cuisine_inner] = 0
 
 sortedByValues = sorted(referenceCount.items(), key = lambda kv:(kv[1], kv[0]))
 
