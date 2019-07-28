@@ -1,9 +1,5 @@
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-import re
-from math import isnan
-import sys,os
 
 #### The code below is used to process raw data and create dataset that consists of
 #### recipe ingredients that are stemmed and sorted withing ingredient:
