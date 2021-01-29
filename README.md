@@ -1,5 +1,5 @@
 # RecipeProject
-Exploring recipe datas using machine learning algorithms, and visualizingthe findings using d3 technology
+Exploring recipe datas using machine learning algorithms, and visualizingthe findings using *d3 technology
 
 **Basic functionality:**
   Developing index.html,main.js, style.css
