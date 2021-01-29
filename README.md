@@ -1,9 +1,9 @@
 lift up the app by command: python -m http.server
 
 # RecipeProject
-## Exploring recipe datas using machine learning algorithms, and visualizingthe findings using **d3 technology**
+### Exploring recipe data using machine learning algorithms, and visualizingthe findings using **d3 technology**
 
-## The dataset was made of nearly 7000 recipes which had around 4000 plus ingredients and 19 cuisines. 
+### The dataset was made of nearly 7000 recipes which had around 4000 plus ingredients and 19 cuisines. 
 
 ### This project tries to find the similarities between dishes and cuisines using the given dataset and we will plot various diagrams to showcase the similarities. Thus, we have
 ### extracted three problems based upon the dataset which are:
