@@ -45,19 +45,32 @@
                     Similarity</button>
             </div>
 
+            <div class="button_div container  justify-content-center " style="text-align: center;">
+                <h5>Change Visibility</h5>
+            </div>
+
+            <div class="button_div container  justify-content-center " style="text-align: center;">
+                <input id="visibility-slider" type="range" min="0" max="36" value="10">
+            </div>
+            
+
             <div class="explain_div container  justify-content-center " style="text-align: center;">
+
                 <p id="explain" class="border">The diagram is created by d3.sankey. It shows the ingredients similarity of each country. The width of connecting line
                 represent the similarity. The line is thicker means the similarity is higher</p>
+
             </div>
 
         </div>
 
         <!-- ploting area-->
+
         <div class="col-9 " id='chart-area'>
             <svg id='chart' width="800" height="800">
 
                 <!-- <text x=350 y=250>chart area</text> -->
             </svg>
+
         </div>
 
     </div>

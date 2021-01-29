@@ -98,9 +98,23 @@ function distinctiveClick() {
     window.location = "distinctive.html";
 }
 
+var colors = d3.scale.category20();
 
+function label(node) {
+    return node.name;
+}
 
-var colors = {
+function color(node, depth) {
+    var id = node.name;
+    if (id >= 19) id = id - 19;
+    return colors(id);
+}
+
+var json = null;
+var jsonOriginalNoSeroesString = null;
+
+function plotSankey() {
+
 
     'american': '#c3c2e5',
     'chinese': '	#d92b04',
@@ -123,6 +137,7 @@ var colors = {
 };
 d3.json("/Data/sankey.json", function (error, json) {
     var chart = d3.select("#chart").chart("Sankey.Path");
+
     chart
         .name(label)
         .colorNodes(function (name, node) {
@@ -136,19 +151,15 @@ d3.json("/Data/sankey.json", function (error, json) {
         .spread(true)
         .iterations(0)
         .draw(json);
+        debugger
+}
 
-    function label(node) {
-        return node.name;
-    }
-
-    function color(node, depth) {
-        var id = node.name;
-        if (colors[id]) {
-            return colors[id];
-        } else if (depth > 0 && node.targetLinks && node.targetLinks.length == 1) {
-            return color(node.targetLinks[0].source, depth - 1);
-        } else {
-            return null;
-        }
-    }
+d3.json("/Data/sankeyJson.json", function (error, json) {
+    
+    nonZeroLinks = [];
+    json.links.forEach((link, index) => {if(link.value != 0) {nonZeroLinks.push(json.links[index])}});
+    json.links = nonZeroLinks;
+    jsonOriginalNoSeroesString = JSON.stringify(json);
+    plotSankey();
+    d3.select("#visibility-slider").on("input", plotSankey);
 });
