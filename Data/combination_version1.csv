@@ -1,0 +1,951 @@
+,cuisine,in1,in2,frequency
+0,cuban, ground cumin, dried oregano,96.0
+0,cuban, salt, dried oregano,92.0
+0,cuban, onions, garlic,90.0
+0,cuban, orange, dried oregano,9.0
+0,cuban, minced garlic, ground black pepper,9.0
+0,cuban, salt, chicken stock,9.0
+0,cuban, orange juice, cilantro,9.0
+0,cuban, lemon juice, garlic cloves,9.0
+0,cuban,pork shoulder, garlic,9.0
+0,cuban,pork shoulder, dried oregano,9.0
+0,cuban, white rice, ground cumin,9.0
+0,cuban, yellow mustard, garlic,9.0
+0,cuban, red onion, pepper,9.0
+0,cuban, red onion, lime juice,9.0
+0,cuban, salt, dried thyme,9.0
+0,cuban, red onion, dried oregano,9.0
+0,cuban, lemon juice, kosher salt,9.0
+0,cuban, oregano, chili,9.0
+0,cuban, white onion, garlic,9.0
+0,cuban, tomato paste, bay leaves,9.0
+0,cuban, oregano, orange,9.0
+0,cuban, oregano, orange juice,9.0
+0,cuban, dried oregano, dill pickles,9.0
+0,cuban, water, tomato sauce,9.0
+0,cuban, salt, honey,9.0
+0,cuban, salt, lime zest,9.0
+0,cuban, tomato paste, raisins,9.0
+0,cuban, red bell pepper, bay leaves,9.0
+0,cuban, lemon juice, ground cumin,9.0
+0,cuban, orange, kosher salt,9.0
+0,cuban, garlic cloves, beef broth,9.0
+0,cuban, swiss cheese, ground cumin,9.0
+0,cuban,vegetable oil, onions,9.0
+0,cuban, lime, fresh cilantro,9.0
+0,cuban, ground allspice, garlic cloves,9.0
+0,cuban,garlic, olive oil,9.0
+0,cuban, rice, onions,9.0
+0,cuban, olive oil, flank steak,9.0
+0,cuban, onions, butter,9.0
+0,cuban, onions, carrots,9.0
+0,cuban, swiss cheese, dried oregano,9.0
+0,cuban, green pepper, cumin,9.0
+0,cuban, sugar, olive oil,9.0
+0,cuban,vegetable oil, ground cumin,9.0
+0,cuban, diced tomatoes, bay leaves,9.0
+0,cuban, onions, flank steak,9.0
+0,cuban, onions, ground beef,9.0
+0,cuban, olive oil, avocado,9.0
+0,cuban, swiss cheese, pepper,9.0
+0,cuban, red wine vinegar, chili,9.0
+0,chinese, water, soy sauce,96.0
+0,chinese, water, corn starch,94.0
+0,chinese, soy sauce, green onions,92.0
+0,chinese, soy sauce, salt,90.0
+0,chinese, oyster sauce, flour,9.0
+0,chinese, fresh ginger, chinese fivespice powder,9.0
+0,chinese, rice vinegar, red pepper flakes,9.0
+0,chinese, fresh ginger,  soy sauce,9.0
+0,chinese, sesame seeds, salt,9.0
+0,chinese,vegetable oil, soy sauce,9.0
+0,chinese, sugar,  soy sauce,9.0
+0,chinese, water chestnuts, water,9.0
+0,chinese, water chestnuts, green onions,9.0
+0,chinese, sesame seeds, brown sugar,9.0
+0,chinese, sesame oil, red pepper flakes,9.0
+0,chinese, ketchup, garlic,9.0
+0,chinese, water chestnuts, oyster sauce,9.0
+0,chinese, kosher salt, ground black pepper,9.0
+0,chinese, toasted sesame oil, green onions,9.0
+0,chinese, sesame oil, kosher salt,9.0
+0,chinese, shaoxing wine, eggs,9.0
+0,chinese, shaoxing wine, green onions,9.0
+0,chinese, onions, dark soy sauce,9.0
+0,chinese, chili, boneless skinless chicken breasts,9.0
+0,chinese, green onions, granulated sugar,9.0
+0,chinese, chili, broccoli,9.0
+0,chinese, toasted sesame oil, chili,9.0
+0,chinese, rice vinegar, eggs,9.0
+0,chinese, shiitake, corn starch,9.0
+0,chinese, salt, boneless skinless chicken breasts,9.0
+0,chinese, sugar, canola oil,9.0
+0,chinese, sugar, black pepper,9.0
+0,chinese, eggs, canola oil,9.0
+0,chinese, sugar, minced ginger,9.0
+0,chinese,boneless skinless chicken breasts, oyster sauce,9.0
+0,chinese, sauce, salt,9.0
+0,chinese, scallions, carrots,9.0
+0,chinese, sugar, honey,9.0
+0,chinese, garlic powder, chili,9.0
+0,chinese,boneless skinless chicken breasts, flour,9.0
+0,chinese, carrots, brown sugar,9.0
+0,chinese, white pepper, vegetable oil,9.0
+0,chinese, honey, garlic powder,9.0
+0,chinese, scallions, kosher salt,9.0
+0,chinese, scallions, minced garlic,9.0
+0,chinese, scallions, red pepper flakes,9.0
+0,chinese, sugar, egg whites,9.0
+0,chinese, sugar, dry sherry,9.0
+0,chinese, garlic, dry sherry,9.0
+0,chinese, sugar, cooking oil,9.0
+0,hawaiian, salt, pepper,95.0
+0,hawaiian,boneless skinless chicken breasts, corn starch,9.0
+0,hawaiian, water, minced garlic,9.0
+0,hawaiian, tomato paste, salt,9.0
+0,hawaiian,ground beef, soy sauce,9.0
+0,hawaiian, pineapple juice, apple cider vinegar,9.0
+0,hawaiian, green onions, garlic cloves,9.0
+0,hawaiian, garlic cloves, chili,9.0
+0,hawaiian, sesame oil, corn starch,9.0
+0,hawaiian,soy sauce, brown sugar,9.0
+0,hawaiian, pineapple, chicken breasts,9.0
+0,hawaiian, red onion, fresh ginger,9.0
+0,hawaiian,boneless skinless chicken breasts, pepper,9.0
+0,hawaiian, onions, eggs,9.0
+0,hawaiian, shredded mzarella cheese, pizza sauce,9.0
+0,hawaiian, pepper, ground ginger,9.0
+0,hawaiian, water, milk,9.0
+0,hawaiian, pineapple, butter,9.0
+0,hawaiian, water,  soy sauce,9.0
+0,hawaiian, pineapple, diced ham,9.0
+0,hawaiian, pineapple juice, ground black pepper,9.0
+0,hawaiian, vinegar, green pepper,9.0
+0,hawaiian, soy sauce, sesame seeds,9.0
+0,hawaiian, pineapple juice, green onions,9.0
+0,hawaiian, teriyaki sauce, pepper,9.0
+0,hawaiian, pineapple juice, green bell pepper,9.0
+0,hawaiian, red onion, ginger,9.0
+0,hawaiian, ginger, garlic cloves,9.0
+0,hawaiian, water, ketchup,9.0
+0,hawaiian, sesame oil, fresh ginger,9.0
+0,hawaiian, fresh pineapple, fresh ginger,9.0
+0,hawaiian, pineapple, bacon,9.0
+0,hawaiian, pineapple chunks, boneless skinless chicken breasts,9.0
+0,hawaiian, ketchup, garlic powder,9.0
+0,hawaiian, olive oil, green pepper,9.0
+0,hawaiian, soy sauce, coconut milk,9.0
+0,hawaiian, ground ginger,  soy sauce,9.0
+0,hawaiian, pepper, barbecue sauce,9.0
+0,hawaiian,ground beef, salt,9.0
+0,hawaiian, water, eggs,9.0
+0,hawaiian, pineapple, onion powder,9.0
+0,hawaiian, salt, rice,9.0
+0,hawaiian, pineapple juice, lime,9.0
+0,hawaiian, green onions, flour,9.0
+0,hawaiian, water, red onion,9.0
+0,hawaiian, pineapple chunks, ginger,9.0
+0,hawaiian,chicken, pineapple,9.0
+0,hawaiian, water, garlic cloves,9.0
+0,hawaiian, pepper, chili,9.0
+0,hawaiian, onions, chili,9.0
+0,indian, salt, ground cumin,99.0
+0,indian, tomatoes, salt,95.0
+0,indian, salt, cumin seed,94.0
+0,indian, salt, oil,93.0
+0,indian, salt, ginger,92.0
+0,indian, oil, butter,9.0
+0,indian, salt, black peppercorns,9.0
+0,indian, salt, carrots,9.0
+0,indian, oil, coriander,9.0
+0,indian, crushed tomatoes, cayenne pepper,9.0
+0,indian, salt, chicken thighs,9.0
+0,indian, oil, cilantro,9.0
+0,indian, salt, chopped tomatoes,9.0
+0,indian, salt, ginger garlic paste,9.0
+0,indian, turmeric, ground ginger,9.0
+0,indian, salt, ginger root,9.0
+0,indian, turmeric, olive oil,9.0
+0,indian, garlic cloves, cilantro leaves,9.0
+0,indian, turmeric, mustard seeds,9.0
+0,indian, salt, masala,9.0
+0,indian, salt, minced ginger,9.0
+0,indian, salt, mint leaves,9.0
+0,indian, coriander powder, cardamom,9.0
+0,indian, cumin, black pepper,9.0
+0,indian,coconut oil, garam masala,9.0
+0,indian, ground coriander, crushed tomatoes,9.0
+0,indian, garlic, chicken breasts,9.0
+0,indian, garam masala, fren peas,9.0
+0,indian, garam masala, fresh lemon juice,9.0
+0,indian, vegetable oil, coriander powder,9.0
+0,indian, vegetable oil, clove,9.0
+0,indian, olive oil, cumin,9.0
+0,indian, curry leaves, coriander powder,9.0
+0,indian, ground cloves, ground cardamom,9.0
+0,indian, yellow onion, fresh ginger,9.0
+0,indian, ground coriander, basmati rice,9.0
+0,indian, ground coriander, cayenne,9.0
+0,indian, garlic, fennel seeds,9.0
+0,indian, garlic, cinnamon sticks,9.0
+0,indian, yellow onion, ground turmeric,9.0
+0,indian, garlic, cooked rice,9.0
+0,indian, minced ginger, garam masala,9.0
+0,indian, garlic, crushed tomatoes,9.0
+0,indian, garlic, curry leaves,9.0
+0,indian, oil, green cardamom,9.0
+0,indian, ground turmeric, diced tomatoes,9.0
+0,indian, cumin, coconut milk,9.0
+0,indian, turmeric, heavy cream,9.0
+0,indian, garlic paste, bay leaf,9.0
+0,indian, sugar, clove,9.0
+0,french, salt, olive oil,91.0
+0,french, whole milk, flour,9.0
+0,french, tomato paste, chicken broth,9.0
+0,french, button mushrooms, bay leaf,9.0
+0,french, onions, mzarella cheese,9.0
+0,french, fresh parsley, dry white wine,9.0
+0,french, white mushrooms, flour,9.0
+0,french, beef broth, bay leaves,9.0
+0,french, garlic cloves, flat leaf parsley,9.0
+0,french, red wine, parsley,9.0
+0,french, yellow onion, thyme,9.0
+0,french, parsley, garlic cloves,9.0
+0,french, tomato paste, parsley,9.0
+0,french, unsalted butter, sugar,9.0
+0,french, kosher salt, heavy cream,9.0
+0,french, tomato paste, bacon,9.0
+0,french, unsalted butter, chicken broth,9.0
+0,french, zucchini, red bell pepper,9.0
+0,french, water, bay leaf,9.0
+0,french, onions, milk,9.0
+0,french, parsley, bay leaves,9.0
+0,french, salt, saffron threads,9.0
+0,french,bacon, tomato paste,9.0
+0,french,olive oil, chicken stock,9.0
+0,french, salt,  carrots,9.0
+0,french, garlic cloves, fresh rosemary,9.0
+0,french, white wine, extravirgin olive oil,9.0
+0,french, cognac, bay leaf,9.0
+0,french, leeks,  eggs,9.0
+0,french, diced tomatoes, carrots,9.0
+0,french,olive oil, bread crumbs,9.0
+0,french, red wine, oil,9.0
+0,french, cognac, chicken,9.0
+0,french, olive oil, milk,9.0
+0,french, zucchini, onions,9.0
+0,french, freshly ground pepper, chicken stock,9.0
+0,french,boneless skinless chicken breasts, salt,9.0
+0,french, red wine, mzarella cheese,9.0
+0,french, freshly ground pepper, chicken broth,9.0
+0,french, fresh parsley, corn starch,9.0
+0,french, thyme sprigs, cremini mushrooms,9.0
+0,french, red wine, fresh mushrooms,9.0
+0,french, medium carrot, freshly ground black pepper,9.0
+0,french, cremini mushrooms, cognac,9.0
+0,french, freshly ground black pepper, dry red wine,9.0
+0,french, salt, red wine vinegar,9.0
+0,french, cremini mushrooms, celery ribs,9.0
+0,french, salt, boneless skinless chicken breasts,9.0
+0,french, black pepper, bay leaves,9.0
+0,french, mzarella cheese, eggs,9.0
+0,greek, red onion, cucumber,99.0
+0,greek, pepper, dried oregano,97.0
+0,greek, red onion, feta cheese,96.0
+0,greek, yogurt, lemon juice,91.0
+0,greek, yogurt, red onion,91.0
+0,greek, lemon, dried oregano,90.0
+0,greek,ground lamb, yogurt,9.0
+0,greek, feta cheese, dijon mustard,9.0
+0,greek, salt, basil,9.0
+0,greek, pitted kalamata olives, fresh oregano,9.0
+0,greek, yogurt, chicken breasts,9.0
+0,greek, onion powder, extravirgin olive oil,9.0
+0,greek, red onion, milk,9.0
+0,greek, red onion, lettuce,9.0
+0,greek, flour, black pepper,9.0
+0,greek, fresh lemon juice, dill,9.0
+0,greek, zucchini, lemon juice,9.0
+0,greek, lemon zest, extravirgin olive oil,9.0
+0,greek, sundried tomatoes, garlic,9.0
+0,greek, zucchini, red bell pepper,9.0
+0,greek, ground nutmeg, garlic,9.0
+0,greek, romaine lettuce, fresh dill,9.0
+0,greek, white wine, olive oil,9.0
+0,greek, sundried tomatoes, feta cheese,9.0
+0,greek, salt, bell pepper,9.0
+0,greek, cherry tomatoes, black olives,9.0
+0,greek, garlic powder, dried basil,9.0
+0,greek, ground black pepper, english cucumber,9.0
+0,greek, lemon juice, black olives,9.0
+0,greek, tzatziki sauce, garlic cloves,9.0
+0,greek, feta cheese, dried dill,9.0
+0,greek, pitted kalamata olives, cucumber,9.0
+0,greek, lemon zest, fresh dill,9.0
+0,greek, pepper, oil,9.0
+0,greek, fresh lemon juice, dried thyme,9.0
+0,greek, sweet onion, garlic,9.0
+0,greek, fresh lemon juice, flat leaf parsley,9.0
+0,greek, lemon juice, butter,9.0
+0,greek, ground pepper, feta cheese,9.0
+0,greek, parsley, extravirgin olive oil,9.0
+0,greek, garlic cloves, artichoke hearts,9.0
+0,greek, olive oil, grated parmesan cheese,9.0
+0,greek, kalamata, fresh lemon juice,9.0
+0,greek, rosemary, oregano,9.0
+0,greek, sliced tomatoes, feta cheese,9.0
+0,greek, garlic, cumin,9.0
+0,greek, potatoes, pepper,9.0
+0,greek, olive oil, lettuce,9.0
+0,greek, cumin, cucumber,9.0
+0,greek, roma tomatoes, feta cheese crumbles,9.0
+0,english, pepper, onions,91.0
+0,english, nutmeg, flour,9.0
+0,english, onions, button mushrooms,9.0
+0,english, garlic, bay leaf,9.0
+0,english, thyme, puff pastry,9.0
+0,english, unsalted butter, fresh thyme,9.0
+0,english, shallots, prosciutto,9.0
+0,english, pepper, dried thyme,9.0
+0,english, onions, cold water,9.0
+0,english, potatoes, garlic,9.0
+0,english, onions, corn starch,9.0
+0,english, kosher salt, butter,9.0
+0,english, worcestershire sauce, kosher salt,9.0
+0,english, pepper, fren peas,9.0
+0,english, tomato pur??e, flour,9.0
+0,english,flour, milk,9.0
+0,english, vegetable oil, beer,9.0
+0,english, unsalted butter, dijon mustard,9.0
+0,english, salt, canola oil,9.0
+0,english, fren puff pastry sheets, butter,9.0
+0,english, salt, nutmeg,9.0
+0,english,potatoes, salt,9.0
+0,english, unsalted butter, beef broth,9.0
+0,english,sausage, flour,9.0
+0,english, pepper, button mushrooms,9.0
+0,english, onions,  eggs,9.0
+0,english, garlic, extravirgin olive oil,9.0
+0,english, onions, beer,9.0
+0,english, kosher salt,  eggs,9.0
+0,english, flour, cold water,9.0
+0,english, flour, coarse salt,9.0
+0,english, unsalted butter, mushrooms,9.0
+0,english, flour, chopped parsley,9.0
+0,english, celery, bay leaf,9.0
+0,english, pepper, fresh thyme,9.0
+0,english, flour, cauliflower,9.0
+0,english, water, unsalted butter,9.0
+0,english, onions, nutmeg,9.0
+0,english, salt, dry white wine,9.0
+0,english, fresh parsley, carrots,9.0
+0,english,olive oil, milk,9.0
+0,english,raw fish, eggs,9.0
+0,english, milk, ground beef,9.0
+0,english, water, olive oil,9.0
+0,english, thyme, garlic cloves,9.0
+0,english, yellow onion, unsalted butter,9.0
+0,english, garlic powder, flour,9.0
+0,english, onions, ketchup,9.0
+0,english, mature cheddar, flour,9.0
+0,english, yellow onion, garlic,9.0
+0,italian,ground beef, salt,9.0
+0,italian, ricotta cheese, marinara sauce,9.0
+0,italian, olive oil, chicken broth,9.0
+0,italian,ground beef, eggs,9.0
+0,italian, olive oil, eggs,9.0
+0,italian, olive oil, garlic powder,9.0
+0,italian, spinach, salt,9.0
+0,italian, ground beef, eggs,9.0
+0,italian, pasta sauce, grated parmesan cheese,9.0
+0,italian, ricotta cheese, eggs,9.0
+0,italian, salt, flat leaf parsley,9.0
+0,italian, red pepper flakes, olive oil,9.0
+0,italian, onions, eggs,9.0
+0,italian, onions, flour,9.0
+0,italian, sausage, grated parmesan cheese,9.0
+0,italian, onions, ground black pepper,9.0
+0,italian, garlic cloves, flour,9.0
+0,italian, butter, black pepper,9.0
+0,italian, salt, crushed tomatoes,9.0
+0,italian, garlic, crushed red pepper flakes,9.0
+0,italian, tomato sauce, olive oil,9.0
+0,italian, olive oil, dried oregano,9.0
+0,italian, flour, capers,9.0
+0,italian,spaghetti, extravirgin olive oil,9.0
+0,italian, red pepper flakes, grated parmesan cheese,9.0
+0,italian, kosher salt, garlic cloves,9.0
+0,italian, dried oregano, dried basil,9.0
+0,italian, unsalted butter, grated parmesan cheese,9.0
+0,italian, pepper, garlic powder,9.0
+0,italian, mzarella cheese, garlic powder,9.0
+0,italian, spinach, grated parmesan cheese,9.0
+0,italian, pepper, italian seasoning,8.0
+0,italian, garlic cloves, dry white wine,8.0
+0,italian, spaghetti, grated parmesan cheese,8.0
+0,italian, garlic cloves, extravirgin olive oil,8.0
+0,italian, grated parmesan cheese, flat leaf parsley,8.0
+0,italian,spaghetti, grated parmesan cheese,8.0
+0,italian, pasta, grated parmesan cheese,8.0
+0,italian, grated parmesan cheese, boneless skinless chicken breasts,8.0
+0,italian, unsalted butter, flour,8.0
+0,italian, grated parmesan cheese, chicken broth,8.0
+0,italian, garlic, fresh basil,8.0
+0,italian, pepper, ground beef,8.0
+0,italian, onions, dried oregano,8.0
+0,italian, olive oil,  eggs,8.0
+0,italian, onions, carrots,8.0
+0,italian, mzarella cheese, garlic cloves,8.0
+0,italian, tomato sauce, shredded mzarella cheese,8.0
+0,italian, tomato sauce, mzarella cheese,8.0
+0,italian, spinach, olive oil,8.0
+0,moroccan, garlic cloves, dried apricot,9.0
+0,moroccan, salt, coriander,9.0
+0,moroccan, salt, freshly ground black pepper,9.0
+0,moroccan, cumin, coriander,9.0
+0,moroccan, turmeric, saffron,9.0
+0,moroccan, onions, honey,9.0
+0,moroccan, yellow onion, chopped fresh cilantro,9.0
+0,moroccan, salt, honey,9.0
+0,moroccan, saffron, ginger,9.0
+0,moroccan, saffron, green olives,9.0
+0,moroccan, dried apricot, chickpeas,9.0
+0,moroccan, kosher salt, chickpeas,9.0
+0,moroccan, pepper, paprika,9.0
+0,moroccan, chicken stock, black pepper,9.0
+0,moroccan, ground coriander, couscous,9.0
+0,moroccan, ground cinnamon, ground black pepper,9.0
+0,moroccan, turmeric, cayenne pepper,9.0
+0,moroccan, sea salt, ground cumin,9.0
+0,moroccan, ground cumin, diced tomatoes,9.0
+0,moroccan, water, olive oil,9.0
+0,moroccan, kosher salt, freshly ground black pepper,9.0
+0,moroccan, garlic, chili,9.0
+0,moroccan, olive oil, carrots,9.0
+0,moroccan, sweet paprika, salt,9.0
+0,moroccan, honey, ground cinnamon,9.0
+0,moroccan, garlic cloves, cinnamon,9.0
+0,moroccan, paprika, cayenne pepper,9.0
+0,moroccan, saffron threads, olive oil,9.0
+0,moroccan, salt, fresh parsley,9.0
+0,moroccan, ground cinnamon, diced tomatoes,9.0
+0,moroccan, lemon, ginger,9.0
+0,moroccan, ground coriander, ground black pepper,9.0
+0,moroccan, onions, ground black pepper,9.0
+0,moroccan,olive oil, ground cinnamon,9.0
+0,moroccan, salt, cilantro,9.0
+0,moroccan, ground turmeric, chopped fresh cilantro,9.0
+0,moroccan, onions, cilantro,9.0
+0,moroccan, garlic cloves, fresh lemon juice,9.0
+0,moroccan, ground cinnamon, black pepper,9.0
+0,moroccan, smoked paprika, ground cumin,9.0
+0,moroccan, honey, dried apricot,9.0
+0,moroccan, zucchini, salt,9.0
+0,moroccan, sweet potatoes, salt,9.0
+0,moroccan, turmeric, fresh ginger,9.0
+0,moroccan, kosher salt, ground ginger,9.0
+0,moroccan, ground ginger, garlic,9.0
+0,moroccan, ground turmeric, fresh lemon juice,9.0
+0,moroccan, preserved lemon, fresh lemon juice,9.0
+0,moroccan, preserved lemon, fresh ginger,9.0
+0,moroccan, saffron, black pepper,9.0
+0,mexican,ground beef, onions,9.0
+0,mexican, hot sauce, chili,9.0
+0,mexican, tortillas, salsa,9.0
+0,mexican,flour, enchilada sauce,9.0
+0,mexican, salsa, cheddar cheese,9.0
+0,mexican, shredded cheddar cheese, ground cumin,9.0
+0,mexican, shredded cheddar cheese, red enchilada sauce,9.0
+0,mexican, kosher salt, cumin,9.0
+0,mexican, vegetable oil, corn tortillas,9.0
+0,mexican, lime, black pepper,9.0
+0,mexican, water, garlic,9.0
+0,mexican, shredded monterey jack cheese, flour,9.0
+0,mexican, lime juice, ground cumin,9.0
+0,mexican, taco seasoning, shredded cheddar cheese,9.0
+0,mexican, taco seasoning, salt,9.0
+0,mexican, red onion, cumin,9.0
+0,mexican, taco seasoning, enchilada sauce,9.0
+0,mexican, garlic, diced tomatoes,9.0
+0,mexican,olive oil, salt,9.0
+0,mexican,chicken breasts, onions,9.0
+0,mexican, garlic, enchilada sauce,9.0
+0,mexican, green onions, cilantro,9.0
+0,mexican, salt, fresh lime juice,9.0
+0,mexican, salt, paprika,9.0
+0,mexican, ground beef, chili,9.0
+0,mexican, salt, boneless skinless chicken breasts,9.0
+0,mexican, ground cumin, cayenne pepper,9.0
+0,mexican, garlic powder, cayenne pepper,9.0
+0,mexican, tomatoes, olive oil,9.0
+0,mexican, ground cumin, cilantro,9.0
+0,mexican, salsa, red onion,9.0
+0,mexican,ground beef, taco seasoning,9.0
+0,mexican, salsa, red bell pepper,9.0
+0,mexican, ground cumin, ground black pepper,9.0
+0,mexican,ground beef, salsa,9.0
+0,mexican,ground beef, enchilada sauce,9.0
+0,mexican, white onion, chili,9.0
+0,mexican, lime juice, chopped fresh cilantro,9.0
+0,mexican, salt, ground beef,9.0
+0,mexican, yellow onion, salsa,9.0
+0,mexican, paprika, ground cumin,9.0
+0,mexican, cumin, black beans,9.0
+0,mexican, sour cream, cilantro leaves,9.0
+0,mexican, olive oil, fresh cilantro,9.0
+0,mexican,boneless skinless chicken breasts, taco seasoning,9.0
+0,mexican, onions, boneless skinless chicken breasts,9.0
+0,mexican, olive oil, chopped cilantro,9.0
+0,mexican, chili, chicken breasts,9.0
+0,mexican, olive oil, cayenne pepper,9.0
+0,mexican, pepper, black beans,9.0
+0,spanish, lemon, kosher salt,9.0
+0,spanish, water, onions,9.0
+0,spanish, yellow onion, garlic,9.0
+0,spanish, spanish chorizo, smoked paprika,9.0
+0,spanish, tomato paste, kosher salt,9.0
+0,spanish, smoked paprika, pepper,9.0
+0,spanish, saffron threads, extravirgin olive oil,9.0
+0,spanish, smoked paprika, fren peas,9.0
+0,spanish, garlic, chopped parsley,9.0
+0,spanish, water, garlic,9.0
+0,spanish, kosher salt, fresh parsley,9.0
+0,spanish, saffron, fren peas,9.0
+0,spanish, kosher salt, chicken broth,9.0
+0,spanish, sausage, fresh parsley,9.0
+0,spanish, red bell pepper, fren peas,9.0
+0,spanish,olive oil, red bell pepper,9.0
+0,spanish, roasted red peppers, garlic cloves,9.0
+0,spanish, white wine, olive oil,9.0
+0,spanish, smoked paprika, saffron,9.0
+0,spanish, sherry vinegar, kosher salt,9.0
+0,spanish, white wine, garlic,9.0
+0,spanish, roasted red peppers, extravirgin olive oil,9.0
+0,spanish, mussels, kosher salt,9.0
+0,spanish, fren peas, chorizo,9.0
+0,spanish, salt, bell pepper,9.0
+0,spanish,olive oil, kosher salt,9.0
+0,spanish, sausage, dry white wine,9.0
+0,spanish, pepper, chorizo,9.0
+0,spanish, salt, chili,9.0
+0,spanish, salt, chicken stock,9.0
+0,spanish, tomatoes, dry white wine,9.0
+0,spanish, tomatoes, lemon wedges,9.0
+0,spanish, yellow onion, olive oil,9.0
+0,spanish, salt, chopped parsley,9.0
+0,spanish, salt, diced tomatoes,9.0
+0,spanish, salt, mussels,9.0
+0,spanish, pepper, bay leaf,9.0
+0,spanish, shrimp, chicken broth,9.0
+0,spanish, lemon wedges, garlic cloves,9.0
+0,spanish,olive oil, chicken broth,8.0
+0,spanish, tomatoes, mussels,8.0
+0,spanish, red pepper, chorizo,8.0
+0,spanish, pepper, lemon wedges,8.0
+0,spanish, fresh parsley, bay leaf,8.0
+0,spanish, garlic cloves, chorizo,8.0
+0,spanish, tomatoes, pepper,8.0
+0,spanish, red pepper, olive oil,8.0
+0,spanish, shrimp, sausage,8.0
+0,spanish, pepper, fren peas,8.0
+0,spanish, pepper, extravirgin olive oil,8.0
+0,hungarian, salt, hungarian paprika,92.0
+0,hungarian, sour cream, paprika,90.0
+0,hungarian, yellow onion, olive oil,9.0
+0,hungarian, sea salt, onions,9.0
+0,hungarian, olive oil, ground black pepper,9.0
+0,hungarian, chicken broth, black pepper,9.0
+0,hungarian, red pepper, onions,9.0
+0,hungarian, paprika, bay leaves,9.0
+0,hungarian, salt, boneless skinless chicken breasts,9.0
+0,hungarian, garlic cloves, black pepper,9.0
+0,hungarian, salt, red wine,9.0
+0,hungarian, sweet paprika, carrots,9.0
+0,hungarian, flour, bay leaves,9.0
+0,hungarian, paprika, beef,9.0
+0,hungarian, salt, lard,9.0
+0,hungarian,olive oil, pepper,9.0
+0,hungarian, sour cream, chicken,9.0
+0,hungarian, kosher salt, ground black pepper,9.0
+0,hungarian, salt, bacon,9.0
+0,hungarian, sausage, salt,9.0
+0,hungarian, garlic, fresh parsley,9.0
+0,hungarian, salt, freshly ground pepper,9.0
+0,hungarian, yellow onion, paprika,9.0
+0,hungarian, unsalted butter, sour cream,9.0
+0,hungarian, garlic cloves, cayenne pepper,9.0
+0,hungarian, tomato paste, green bell pepper,9.0
+0,hungarian, hungarian paprika, freshly ground pepper,9.0
+0,hungarian, chuck, caraway seeds,9.0
+0,hungarian, noodles, flour,9.0
+0,hungarian, pepper, corn starch,9.0
+0,hungarian, hungarian paprika, fresh parsley,9.0
+0,hungarian, yellow onion,  chicken broth,9.0
+0,hungarian,canola oil, salt,9.0
+0,hungarian, paprika, mushrooms,9.0
+0,hungarian,beef, onions,9.0
+0,hungarian, garlic, freshly ground black pepper,9.0
+0,hungarian, yellow onion, chicken broth,9.0
+0,hungarian, tomato paste, bay leaf,9.0
+0,hungarian, onions, minced garlic,9.0
+0,hungarian, vegetable oil, paprika,9.0
+0,hungarian, sour cream, minced garlic,9.0
+0,hungarian, salt, milk,9.0
+0,hungarian, vegetable oil, tomato paste,9.0
+0,hungarian, salt, chuck,9.0
+0,hungarian, chicken stock, butter,9.0
+0,hungarian, tomato juice, onions,9.0
+0,hungarian, onions, dried thyme,9.0
+0,hungarian, red bell pepper, olive oil,9.0
+0,hungarian, water, green bell pepper,9.0
+0,hungarian, carrots, beef broth,9.0
+0,american, pepper, mayonnaise,9.0
+0,american, red bell pepper, olive oil,9.0
+0,american, olive oil, chicken breast halves,9.0
+0,american, olive oil, chopped fresh thyme,9.0
+0,american, paprika, flour,9.0
+0,american, olive oil, dried thyme,9.0
+0,american, cooking spray,  less sodium chicken broth,9.0
+0,american, ground cumin, chopped fresh cilantro,9.0
+0,american, ground cumin, black pepper,9.0
+0,american, dried thyme, black pepper,9.0
+0,american, salt, lump crab meat,9.0
+0,american, water, pepper,9.0
+0,american, flour, baking powder,9.0
+0,american, olive oil, freshly ground pepper,9.0
+0,american, garlic, crawfish,9.0
+0,american, salt,  milk,9.0
+0,american, salt, lemon,9.0
+0,american, water, vegetable oil,9.0
+0,american, cooking spray, chopped fresh cilantro,9.0
+0,american, dijon mustard, black pepper,9.0
+0,american, fresh parsley, flour,9.0
+0,american, onions, dried thyme,9.0
+0,american, salt, chopped celery,9.0
+0,american, chili, brown sugar,9.0
+0,american, worcestershire sauce, dijon mustard,9.0
+0,american, onions, black pepper,9.0
+0,american, salt, crumbled blue cheese,9.0
+0,american, garlic cloves, carrots,9.0
+0,american, salt, eggs,9.0
+0,american, green onions, fresh parsley,9.0
+0,american, worcestershire sauce, brown sugar,9.0
+0,american, crawfish, celery,9.0
+0,american, flour, dried thyme,9.0
+0,american, fresh lemon juice, chili,9.0
+0,american, raw fish, ground black pepper,9.0
+0,american, ground red pepper, ground cumin,9.0
+0,american, ground red pepper, flour,9.0
+0,american, fresh lime juice, cooking spray,9.0
+0,american, mayonnaise,  eggs,9.0
+0,american, ketchup, chili,9.0
+0,american, pepper, butter,9.0
+0,american, pepper, garlic,9.0
+0,american, salt, red wine vinegar,9.0
+0,american, pepper, fresh parsley,9.0
+0,american, red bell pepper, black pepper,9.0
+0,american, salt, pepper,89.0
+0,american, salt, garlic cloves,89.0
+0,american, salt, olive oil,81.0
+0,american, salt, black pepper,80.0
+0,american, sugar, shallots,8.0
+0,irish, water, butter,9.0
+0,irish, peppercorns, carrots,9.0
+0,irish, thyme, carrots,9.0
+0,irish, parsley, carrots,9.0
+0,irish,potatoes, salt,9.0
+0,irish, stout, bay leaves,9.0
+0,irish, onions, fresh thyme,9.0
+0,irish, peppercorns, onions,9.0
+0,irish, garlic, cabbage,9.0
+0,irish, sugar, carrots,9.0
+0,irish, guinness beer, flour,9.0
+0,irish, onions, beef broth,9.0
+0,irish,beef brisket, brown sugar,9.0
+0,irish, vegetable oil, garlic,9.0
+0,irish, salt, green cabbage,9.0
+0,irish, turnips, carrots,9.0
+0,irish, potatoes, bay leaf,9.0
+0,irish, green cabbage, beef brisket,9.0
+0,irish,beef brisket, fresh parsley,9.0
+0,irish, onions, clove,9.0
+0,irish, potatoes, beef stock,9.0
+0,irish, potatoes, beer,9.0
+0,irish, potatoes, celery,9.0
+0,irish, turnips, onions,9.0
+0,irish, small red potatoes, bay leaves,9.0
+0,irish, onions, green cabbage,9.0
+0,irish, ground black pepper, fresh parsley,9.0
+0,irish, dijon mustard, cabbage,9.0
+0,irish, ground black pepper, flour,9.0
+0,irish, tomato paste, salt,9.0
+0,irish, corned beef, cabbage,9.0
+0,irish, water, vegetable oil,9.0
+0,irish, coriander seeds, bay leaves,9.0
+0,irish, mustard seeds, carrots,9.0
+0,irish, mustard seeds, cabbage,9.0
+0,irish, pepper, dried thyme,9.0
+0,irish, mustard seeds, black peppercorns,9.0
+0,irish, garlic cloves, flour,9.0
+0,irish, salt, bay leaf,9.0
+0,irish, pepper, guinness beer,9.0
+0,irish, thyme, potatoes,9.0
+0,irish, pepper, olive oil,9.0
+0,irish, stout, potatoes,9.0
+0,irish, olive oil, guinness beer,9.0
+0,irish, tomato paste, guinness beer,9.0
+0,irish, flour, beef stock,9.0
+0,irish, milk, flour,9.0
+0,irish, yellow onion, potatoes,9.0
+0,irish, butter, bay leaves,9.0
+0,irish, small red potatoes, beef brisket,8.0
+0,german, parsley, eggs,9.0
+0,german, onions, kosher salt,9.0
+0,german, dijon mustard, brats,9.0
+0,german, panko breadcrumbs, flour,9.0
+0,german, paprika, bread crumbs,9.0
+0,german, paprika, flour,9.0
+0,german, garlic, caraway seeds,9.0
+0,german, flour, dry bread crumbs,9.0
+0,german, white wine, onions,9.0
+0,german, pepper, brats,9.0
+0,german, pepper, celery,9.0
+0,german, pepper, cider vinegar,9.0
+0,german,vegetable oil, salt,9.0
+0,german, pepper, dry bread crumbs,9.0
+0,german, celery, carrots,9.0
+0,german, sauerkraut, juniper berries,9.0
+0,german, unsalted butter, eggs,9.0
+0,german, peppercorns, clove,9.0
+0,german, ground black pepper, carrots,9.0
+0,german,sausage, salt,9.0
+0,german, eggs, chopped parsley,9.0
+0,german, water, paprika,9.0
+0,german, water, milk,9.0
+0,german, water, bread crumbs,9.0
+0,german, potatoes, pepper,9.0
+0,german, vinegar, salt,9.0
+0,german, caraway seeds, bacon,9.0
+0,german, garlic cloves, caraway seeds,9.0
+0,german, beef broth, bacon,9.0
+0,german, salt, cold water,9.0
+0,german, garlic cloves, beer,9.0
+0,german, hot dog buns, beer,9.0
+0,german, flour, chicken broth,9.0
+0,german, milk, caraway seeds,9.0
+0,german, milk, fresh parsley,9.0
+0,german, lemon juice, flour,9.0
+0,german,bacon, sauerkraut,9.0
+0,german, sauerkraut, bacon,9.0
+0,german, salt, red wine vinegar,9.0
+0,german, chopped onion, caraway seeds,9.0
+0,german, kosher salt, brats,9.0
+0,german, onions, ketchup,9.0
+0,german, salt, juniper berries,9.0
+0,german, salt, heavy cream,9.0
+0,german, tomato paste, flour,9.0
+0,german, yellow onion, ground black pepper,9.0
+0,german, onions, black peppercorns,9.0
+0,german, salt, freshly ground black pepper,9.0
+0,german, sugar, bay leaves,9.0
+0,german, sauerkraut, garlic,9.0
+0,japanese, soy sauce, mirin,94.0
+0,japanese, water, carrots,9.0
+0,japanese, sesame seeds, corn starch,9.0
+0,japanese,raw fish, mirin,9.0
+0,japanese, mirin, flour,9.0
+0,japanese, mirin, dark brown sugar,9.0
+0,japanese, minced garlic, fresh ginger,9.0
+0,japanese, soy sauce, beef,9.0
+0,japanese, vegetable oil, pepper,9.0
+0,japanese, honey, green onions,9.0
+0,japanese, shiitake, mirin,9.0
+0,japanese,raw fish, sake,9.0
+0,japanese, sugar, sesame seeds,9.0
+0,japanese, toasted sesame oil, sesame seeds,9.0
+0,japanese, sugar, raw fish,9.0
+0,japanese, soy sauce, roasted seaweed,9.0
+0,japanese,soy sauce, green onions,9.0
+0,japanese, sugar, pepper,9.0
+0,japanese, sesame seeds, fresh ginger,9.0
+0,japanese, sake, corn starch,9.0
+0,japanese, toasted sesame seeds, soy sauce,9.0
+0,japanese, sake, carrots,9.0
+0,japanese, sake, beef,9.0
+0,japanese, soy sauce, sake,84.0
+0,japanese, scallions, raw fish,8.0
+0,japanese, sake, chili,8.0
+0,japanese, onions, beef,8.0
+0,japanese,sake, mirin,8.0
+0,japanese, ginger, corn starch,8.0
+0,japanese, oil, eggs,8.0
+0,japanese, sake, boneless skinless chicken thighs,8.0
+0,japanese,raw fish, sugar,8.0
+0,japanese,raw fish, soy sauce,8.0
+0,japanese, sugar, flour,8.0
+0,japanese, onions, eggs,8.0
+0,japanese, scallions, boneless skinless chicken thighs,8.0
+0,japanese,beef, sake,8.0
+0,japanese, white miso, soy sauce,8.0
+0,japanese, soy sauce, canola oil,8.0
+0,japanese, vegetable oil, toasted sesame oil,8.0
+0,japanese, sake, flour,8.0
+0,japanese, salt, rice vinegar,8.0
+0,japanese, salt, oil,8.0
+0,japanese, sake, kosher salt,8.0
+0,japanese, rice vinegar, fresh ginger,8.0
+0,japanese, sugar, olive oil,8.0
+0,japanese,soy sauce, sugar,8.0
+0,japanese, soy sauce, shiitake,8.0
+0,japanese, mirin, light brown sugar,8.0
+0,japanese, onions, oil,8.0
+0,swedish, onions, ground nutmeg,9.0
+0,swedish,ground beef, ground pork,9.0
+0,swedish, garlic, flour,9.0
+0,swedish, butter, allspice,9.0
+0,swedish, onions, allspice,9.0
+0,swedish, flour, black pepper,9.0
+0,swedish, onions, ground black pepper,9.0
+0,swedish, olive oil, flour,9.0
+0,swedish, ground allspice, eggs,9.0
+0,swedish, ground black pepper, flour,9.0
+0,swedish, ground pork, butter,9.0
+0,swedish, pepper, butter,9.0
+0,swedish, water, onions,9.0
+0,swedish, nutmeg, eggs,9.0
+0,swedish, kosher salt, ground allspice,9.0
+0,swedish, ground allspice,  eggs,9.0
+0,swedish, ground pork, eggs,9.0
+0,swedish, ground beef, beef broth,8.0
+0,swedish, milk, heavy cream,8.0
+0,swedish, ground black pepper,  eggs,8.0
+0,swedish, kosher salt, flour,8.0
+0,swedish, ground beef, eggs,8.0
+0,swedish, milk, kosher salt,8.0
+0,swedish, sour cream, onions,8.0
+0,swedish, worcestershire sauce, beef broth,8.0
+0,swedish, milk, ground pork,8.0
+0,swedish, pepper, heavy cream,8.0
+0,swedish, vegetable oil, flour,8.0
+0,swedish, pepper,  eggs,8.0
+0,swedish, sour cream, milk,8.0
+0,swedish, flour, bread crumbs,8.0
+0,swedish, lean ground beef, flour,8.0
+0,swedish, ground black pepper, ground allspice,8.0
+0,swedish, heavy cream, butter,8.0
+0,swedish, pepper, panko breadcrumbs,8.0
+0,swedish, ground pork, ground beef,8.0
+0,swedish, nutmeg, butter,8.0
+0,swedish, ground nutmeg, eggs,8.0
+0,swedish, ground pork, ground nutmeg,7.0
+0,swedish, panko breadcrumbs, flour,7.0
+0,swedish, unsalted butter, ground pork,7.0
+0,swedish, ground pork, allspice,7.0
+0,swedish,ground beef, allspice,7.0
+0,swedish, ground allspice, black pepper,7.0
+0,swedish, panko breadcrumbs, ground pork,7.0
+0,swedish, panko breadcrumbs, heavy cream,7.0
+0,swedish, water, pepper,7.0
+0,swedish, panko breadcrumbs, onions,7.0
+0,swedish, salt, fresh parsley,7.0
+0,swedish, ground beef, ground allspice,7.0
+0,portuguese, pepper, onions,9.0
+0,portuguese, olive oil, garlic,8.0
+0,portuguese, pepper, olive oil,8.0
+0,portuguese, onions, garlic cloves,7.0
+0,portuguese, salt, ground black pepper,7.0
+0,portuguese, salt, paprika,7.0
+0,portuguese, water, salt,7.0
+0,portuguese, white wine, salt,7.0
+0,portuguese, water, garlic,6.0
+0,portuguese, pepper, garlic,6.0
+0,portuguese, paprika, garlic cloves,6.0
+0,portuguese, garlic, bay leaves,6.0
+0,portuguese, salt, eggs,6.0
+0,portuguese, onions, bay leaves,5.0
+0,portuguese, parsley, onions,5.0
+0,portuguese, salt, fresh parsley,5.0
+0,portuguese, garlic, dry white wine,5.0
+0,portuguese, salt, parsley,5.0
+0,portuguese, potatoes, olive oil,5.0
+0,portuguese, olive oil, bay leaves,5.0
+0,portuguese, salt, raw fish,5.0
+0,portuguese, onions, fresh parsley,4.0
+0,portuguese, tomatoes, salt,4.0
+0,portuguese, garlic cloves, bay leaves,4.0
+0,portuguese, white wine, olive oil,4.0
+0,portuguese, paprika, onions,4.0
+0,portuguese, onions, cornbread,4.0
+0,portuguese, onions, eggs,4.0
+0,portuguese, paprika, olive oil,4.0
+0,portuguese, pepper, cornbread,4.0
+0,portuguese, white wine, onions,4.0
+0,portuguese, water, bay leaves,4.0
+0,portuguese, olive oil, garlic cloves,4.0
+0,portuguese, ground black pepper, garlic cloves,4.0
+0,portuguese, olive oil, eggs,4.0
+0,portuguese, tomato paste, garlic,4.0
+0,portuguese, salt, potatoes,4.0
+0,portuguese, olive oil, cornbread,4.0
+0,portuguese, parsley, olive oil,4.0
+0,portuguese, water, onions,4.0
+0,portuguese, salt, cornbread,4.0
+0,portuguese, potatoes, onions,4.0
+0,portuguese, salt, bay leaves,4.0
+0,portuguese, pepper, garlic cloves,3.0
+0,portuguese, small potatoes, cornbread,3.0
+0,portuguese, small potatoes, onions,3.0
+0,portuguese, garlic cloves, fresh parsley,3.0
+0,portuguese, small potatoes, garlic,3.0
+0,portuguese, small potatoes, olive oil,3.0
+0,portuguese, olive oil, ground black pepper,3.0
+0,thai, sugar, chili,9.0
+0,thai, palm sugar, fish sauce,9.0
+0,thai, soy sauce, fresh ginger,9.0
+0,thai, thai basil, garlic,9.0
+0,thai, sugar, coconut milk,9.0
+0,thai, sugar, garlic,9.0
+0,thai, salt, garlic,9.0
+0,thai, lime juice, chili,9.0
+0,thai, fish sauce, corn starch,9.0
+0,thai, lemongrass, garlic,9.0
+0,thai, fish sauce, cilantro,9.0
+0,thai, lime juice, coconut milk,9.0
+0,thai, vegetable oil, beansprouts,9.0
+0,thai, onions, garlic,9.0
+0,thai, red curry paste, coconut milk,9.0
+0,thai, soy sauce, lime,9.0
+0,thai, soy sauce, sesame oil,9.0
+0,thai, fresh basil, fish sauce,8.0
+0,thai, soy sauce, lime juice,8.0
+0,thai, kaffir lime leaves, garlic,8.0
+0,thai, garlic, boneless skinless chicken breasts,8.0
+0,thai, lime wedges, beansprouts,8.0
+0,thai, green onions, carrots,8.0
+0,thai, lime juice, green onions,8.0
+0,thai, soy sauce, peanut butter,8.0
+0,thai, honey, chili,8.0
+0,thai, soy sauce, peanuts,8.0
+0,thai, palm sugar, chili,8.0
+0,thai, lime wedges, garlic,8.0
+0,thai, rice vinegar, garlic,8.0
+0,thai, soy sauce, salt,8.0
+0,thai, sesame oil, chili,8.0
+0,thai, ground coriander, garlic,8.0
+0,thai, fresh ginger, chili,8.0
+0,thai, fish sauce,  soy sauce,8.0
+0,thai, garlic, fresh basil,8.0
+0,thai, salt, garlic cloves,8.0
+0,thai, vegetable oil, garlic,8.0
+0,thai, red bell pepper, chili,8.0
+0,thai, vegetable oil, eggs,8.0
+0,thai, fresh lime juice, fish sauce,8.0
+0,thai, shallots, lime wedges,8.0
+0,thai, water, chili,8.0
+0,thai, lime, beansprouts,8.0
+0,thai, fish sauce, chicken stock,7.0
+0,thai, fish sauce, chopped fresh cilantro,7.0
+0,thai, garlic, cilantro,7.0
+0,thai, fish sauce, carrots,7.0
+0,thai,vegetable oil, fish sauce,7.0
+0,thai, peanuts, lime wedges,7.0

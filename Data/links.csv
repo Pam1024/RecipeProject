@@ -1,0 +1,77 @@
+cuisine,source,target
+chinese, soy sauce, corn starch
+chinese, soy sauce, garlic
+chinese, soy sauce, sesame oil
+chinese, soy sauce, green onions
+chinese, sesame oil, green onions
+chinese, water, green onions
+french, salt, flour
+french, salt, pepper
+french, salt, butter
+french, salt, carrots
+french, flour, butter
+french, flour, carrots
+french, pepper, butter
+french, pepper, carrots
+italian, salt, grated parmesan cheese
+italian, salt, olive oil
+italian, salt, garlic
+italian, grated parmesan cheese, garlic
+italian, olive oil, garlic
+indian, salt, garam masala
+indian, salt, onions
+indian, salt, garlic
+indian, salt, ground turmeric
+indian, salt, ginger
+indian, salt, cumin seed
+indian, garam masala, cumin seed
+indian, onions, garlic
+indian, onions, ground turmeric
+indian, onions, ginger
+indian, onions, cumin seed
+indian, garlic, cumin seed
+indian, yogurt, ground turmeric
+indian, yogurt, ginger
+indian, yogurt, cumin seed
+indian, ground turmeric, ginger
+indian, ground turmeric, cumin seed
+indian, ginger, cumin seed
+japanese, soy sauce, mirin
+japanese, soy sauce, sake
+japanese, soy sauce, scallions
+japanese, soy sauce, green onions
+japanese, mirin, green onions
+japanese, sake, green onions
+japanese, sugar, scallions
+japanese, sugar, green onions
+japanese, scallions, green onions
+moroccan, salt, olive oil
+moroccan, salt, ground cumin
+moroccan, salt, garlic
+moroccan, salt, ground cinnamon
+moroccan, salt, ground ginger
+moroccan, salt, ground coriander
+moroccan, salt, preserved lemon
+moroccan, olive oil, ground cumin
+moroccan, olive oil, garlic
+moroccan, olive oil, ground cinnamon
+moroccan, olive oil, ground ginger
+moroccan, olive oil, ground coriander
+moroccan, ground cumin, garlic
+moroccan, ground cumin, ground cinnamon
+moroccan, ground cumin, ground coriander
+moroccan, ground ginger, ground coriander
+spanish, onions, garlic cloves
+spanish, onions, olive oil
+spanish, onions, garlic
+spanish, salt, garlic cloves
+spanish, salt, olive oil
+spanish, salt, garlic
+spanish, salt, saffron threads
+spanish, salt, paprika
+spanish, garlic cloves, garlic
+spanish, olive oil, garlic
+spanish, saffron threads, paprika
+spanish, sausage, paprika
+thai, fish sauce, coconut milk
+thai, garlic, coconut milk

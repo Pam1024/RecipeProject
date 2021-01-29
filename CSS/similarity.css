@@ -1,0 +1,77 @@
+#chart-area {
+    width: 100%;
+    /* border: 1px solid blue; */
+    text-align: center;
+}
+
+
+
+button {
+    width: 70%;
+    height: 80px;
+    font-size: 3rem;
+    margin: 10px 5px;
+}
+
+#explain {
+    width: 70%;
+    margin: 10px 5px;
+}
+
+p {
+    vertical-align: middle;
+    align: left;
+    display: inline-block;
+}
+
+
+  .btn-lg {
+    font-size: 1em;
+  }
+
+  /* body {
+    padding: 10px;
+    min-width: 600px;
+    max-width: 1200px;
+    margin: auto;
+  } */
+
+  /* #chart {
+    height: 500px;
+    font: 13px sans-serif;
+  } */
+
+  #chart {
+    display: inline-block;
+    /* border: 1px solid red; */
+    margin: 40px 20px 20px 20px;
+     font: sans-serif;
+  }
+
+  .node rect {
+    fill-opacity: .9;
+    shape-rendering: crispEdges;
+    stroke-width: 0;
+  }
+
+  .node text {
+    text-shadow: 0 1px 0 #fff;
+  }
+
+  .link {
+    fill: none;
+    stroke: #000;
+    stroke-opacity: .2;
+  }
+  /* .link {
+    fill: none;
+    stroke: #000;
+    stroke-opacity: .5;
+  }
+  .link:hover {
+    stroke-opacity: 1;
+  } */
+  .btn-lg {
+    font-size: 1em;
+  }
+  } 

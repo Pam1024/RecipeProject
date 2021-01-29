@@ -9,7 +9,7 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Custom styling -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/distinctive.css">
 </head>
 
 <body>
@@ -28,35 +28,33 @@
     <div class="row">
 
         <!-- functionality select area-->
-        <div class="col-3 border container  justify-content-center" id='selection'>
+        <div class="col-3  container  justify-content-center" id='selection'>
             <div class="button_div container  justify-content-center" style="text-align: center;">
-                <button id="popular" type="button" class="btn  btn-outline-info btn-lg display-6"
-                    width="30%">Popular
+                <button id="popular" type="button" class="btn  btn-outline-info btn-lg h3"
+                    width="30%" onclick="popularClick()">Popular
                     Ingredients</button>
             </div>
 
             <div class="button_div container  justify-content-center" style="text-align: center;">
-                <button id="distinctive" type="button" class="btn active btn-outline-info btn-lg">Distinctive
+                <button id="distinctive" type="button" class="btn active btn-outline-info btn-lg" >Distinctive
                     Ingredients</button>
             </div>
 
             <div class="button_div container  justify-content-center " style="text-align: center;">
-                <button id="similarity" type="button" class="btn btn-outline-info btn-lg">Cuisine Similarity</button>
+                <button id="similarity" type="button" class="btn btn-outline-info btn-lg" onclick="similarityClick()">Cuisine Similarity</button>
             </div>
 
             <div class="explain_div container  justify-content-center " style="text-align: center;">
-                <p id="explain" class="border">Bacon ipsum dolor amet pork loin tail meatball pig. Pork chop tenderloin
-                    chuck sausage spare ribs pork loin pork t-bone
-                    ground round drumstick swine pork belly short ribs. Chuck porchetta ham hock brisket drumstick
-                    andouille pastrami pork</p>
+                <p id="explain" class="border">The diagram is created by d3.force.It clustered most popular ingredients by each country. The nodes which to connect each cluster are common popular
+                ingredient between the two countries.</p>
             </div>
 
         </div>
 
         <!-- ploting area-->
         <div class="col-9 " id='chart-area'>
-            <svg id='chart' width="800" height="500">
-                <text x=350 y=250>chart area</text>
+            <svg id='chart' width="1050" height="550">
+                <!-- <text x=350 y=250>chart area</text> -->
             </svg>
         </div>
 

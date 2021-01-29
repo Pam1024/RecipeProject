@@ -1,0 +1,518 @@
+{
+    "nodes":[
+  {
+    "id": "soy sauce",
+    "group": "chinese"
+  },
+  {
+    "id": "corn starch",
+    "group": "chinese"
+  },
+  {
+    "id": "garlic",
+    "group": "chinese"
+  },
+  {
+    "id": "sesame oil",
+    "group": "chinese"
+  },
+  {
+    "id": "water",
+    "group": "chinese"
+  },
+  {
+    "id": "green onions",
+    "group": "chinese"
+  },
+  {
+    "id": "salt",
+    "group": "french"
+  },
+  {
+    "id": "flour",
+    "group": "french"
+  },
+  {
+    "id": "pepper",
+    "group": "french"
+  },
+  {
+    "id": "butter",
+    "group": "french"
+  },
+  {
+    "id": "carrots",
+    "group": "french"
+  },
+  {
+    "id": "salt",
+    "group": "italian"
+  },
+  {
+    "id": "grated parmesan cheese",
+    "group": "italian"
+  },
+  {
+    "id": "olive oil",
+    "group": "italian"
+  },
+  {
+    "id": "garlic",
+    "group": "italian"
+  },
+  {
+    "id": "chili",
+    "group": "indian"
+  },
+  {
+    "id": "salt",
+    "group": "indian"
+  },
+  {
+    "id": "garam masala",
+    "group": "indian"
+  },
+  {
+    "id": "onions",
+    "group": "indian"
+  },
+  {
+    "id": "garlic",
+    "group": "indian"
+  },
+  {
+    "id": "yogurt",
+    "group": "indian"
+  },
+  {
+    "id": "ground turmeric",
+    "group": "indian"
+  },
+  {
+    "id": "ginger",
+    "group": "indian"
+  },
+  {
+    "id": "cumin seed",
+    "group": "indian"
+  },
+  {
+    "id": "soy sauce",
+    "group": "japanese"
+  },
+  {
+    "id": "mirin",
+    "group": "japanese"
+  },
+  {
+    "id": "sake",
+    "group": "japanese"
+  },
+  {
+    "id": "sugar",
+    "group": "japanese"
+  },
+  {
+    "id": "scallions",
+    "group": "japanese"
+  },
+  {
+    "id": "green onions",
+    "group": "japanese"
+  },
+  {
+    "id": "salt",
+    "group": "moroccan"
+  },
+  {
+    "id": "olive oil",
+    "group": "moroccan"
+  },
+  {
+    "id": "ground cumin",
+    "group": "moroccan"
+  },
+  {
+    "id": "garlic",
+    "group": "moroccan"
+  },
+  {
+    "id": "ground cinnamon",
+    "group": "moroccan"
+  },
+  {
+    "id": "ground ginger",
+    "group": "moroccan"
+  },
+  {
+    "id": "ground coriander",
+    "group": "moroccan"
+  },
+  {
+    "id": "preserved lemon",
+    "group": "moroccan"
+  },
+  {
+    "id": "onions",
+    "group": "spanish"
+  },
+  {
+    "id": "salt",
+    "group": "spanish"
+  },
+  {
+    "id": "garlic cloves",
+    "group": "spanish"
+  },
+  {
+    "id": "olive oil",
+    "group": "spanish"
+  },
+  {
+    "id": "garlic",
+    "group": "spanish"
+  },
+  {
+    "id": "saffron threads",
+    "group": "spanish"
+  },
+  {
+    "id": "sausage",
+    "group": "spanish"
+  },
+  {
+    "id": "paprika",
+    "group": "spanish"
+  },
+  {
+    "id": "olive oil",
+    "group": "spanish"
+  },
+  {
+    "id": "chili",
+    "group": "thai"
+  },
+  {
+    "id": "fish sauce",
+    "group": "thai"
+  },
+  {
+    "id": "garlic",
+    "group": "thai"
+  },
+  {
+    "id": "coconut milk",
+    "group": "thai"
+  },
+  {
+    "id": "lime juice",
+    "group": "thai"
+  }
+],
+    "links":[
+  {
+    "source": "soy sauce",
+    "target": "corn starch"
+  },
+  {
+    "source": "soy sauce",
+    "target": "garlic"
+  },
+  {
+    "source": "soy sauce",
+    "target": "sesame oil"
+  },
+  {
+    "source": "soy sauce",
+    "target": "green onions"
+  },
+  {
+    "source": "sesame oil",
+    "target": "green onions"
+  },
+  {
+    "source": "water",
+    "target": "green onions"
+  },
+  {
+    "source": "salt",
+    "target": "flour"
+  },
+  {
+    "source": "salt",
+    "target": "pepper"
+  },
+  {
+    "source": "salt",
+    "target": "butter"
+  },
+  {
+    "source": "salt",
+    "target": "carrots"
+  },
+  {
+    "source": "flour",
+    "target": "butter"
+  },
+  {
+    "source": "flour",
+    "target": "carrots"
+  },
+  {
+    "source": "pepper",
+    "target": "butter"
+  },
+  {
+    "source": "pepper",
+    "target": "carrots"
+  },
+  {
+    "source": "salt",
+    "target": "grated parmesan cheese"
+  },
+  {
+    "source": "salt",
+    "target": "olive oil"
+  },
+  {
+    "source": "salt",
+    "target": "garlic"
+  },
+  {
+    "source": "grated parmesan cheese",
+    "target": "garlic"
+  },
+  {
+    "source": "olive oil",
+    "target": "garlic"
+  },
+  {
+    "source": "salt",
+    "target": "garam masala"
+  },
+  {
+    "source": "salt",
+    "target": "onions"
+  },
+  {
+    "source": "salt",
+    "target": "garlic"
+  },
+  {
+    "source": "salt",
+    "target": "ground turmeric"
+  },
+  {
+    "source": "salt",
+    "target": "ginger"
+  },
+  {
+    "source": "salt",
+    "target": "cumin seed"
+  },
+  {
+    "source": "garam masala",
+    "target": "cumin seed"
+  },
+  {
+    "source": "onions",
+    "target": "garlic"
+  },
+  {
+    "source": "onions",
+    "target": "ground turmeric"
+  },
+  {
+    "source": "onions",
+    "target": "ginger"
+  },
+  {
+    "source": "onions",
+    "target": "cumin seed"
+  },
+  {
+    "source": "garlic",
+    "target": "cumin seed"
+  },
+  {
+    "source": "yogurt",
+    "target": "ground turmeric"
+  },
+  {
+    "source": "yogurt",
+    "target": "ginger"
+  },
+  {
+    "source": "yogurt",
+    "target": "cumin seed"
+  },
+  {
+    "source": "ground turmeric",
+    "target": "ginger"
+  },
+  {
+    "source": "ground turmeric",
+    "target": "cumin seed"
+  },
+  {
+    "source": "ginger",
+    "target": "cumin seed"
+  },
+  {
+    "source": "soy sauce",
+    "target": "mirin"
+  },
+  {
+    "source": "soy sauce",
+    "target": "sake"
+  },
+  {
+    "source": "soy sauce",
+    "target": "scallions"
+  },
+  {
+    "source": "soy sauce",
+    "target": "green onions"
+  },
+  {
+    "source": "mirin",
+    "target": "green onions"
+  },
+  {
+    "source": "sake",
+    "target": "green onions"
+  },
+  {
+    "source": "sugar",
+    "target": "scallions"
+  },
+  {
+    "source": "sugar",
+    "target": "green onions"
+  },
+  {
+    "source": "scallions",
+    "target": "green onions"
+  },
+  {
+    "source": "salt",
+    "target": "olive oil"
+  },
+  {
+    "source": "salt",
+    "target": "ground cumin"
+  },
+  {
+    "source": "salt",
+    "target": "garlic"
+  },
+  {
+    "source": "salt",
+    "target": "ground cinnamon"
+  },
+  {
+    "source": "salt",
+    "target": "ground ginger"
+  },
+  {
+    "source": "salt",
+    "target": "ground coriander"
+  },
+  {
+    "source": "salt",
+    "target": "preserved lemon"
+  },
+  {
+    "source": "olive oil",
+    "target": "ground cumin"
+  },
+  {
+    "source": "olive oil",
+    "target": "garlic"
+  },
+  {
+    "source": "olive oil",
+    "target": "ground cinnamon"
+  },
+  {
+    "source": "olive oil",
+    "target": "ground ginger"
+  },
+  {
+    "source": "olive oil",
+    "target": "ground coriander"
+  },
+  {
+    "source": "ground cumin",
+    "target": "garlic"
+  },
+  {
+    "source": "ground cumin",
+    "target": "ground cinnamon"
+  },
+  {
+    "source": "ground cumin",
+    "target": "ground coriander"
+  },
+  {
+    "source": "ground ginger",
+    "target": "ground coriander"
+  },
+  {
+    "source": "onions",
+    "target": "garlic cloves"
+  },
+  {
+    "source": "onions",
+    "target": "olive oil"
+  },
+  {
+    "source": "onions",
+    "target": "garlic"
+  },
+  {
+    "source": "salt",
+    "target": "garlic cloves"
+  },
+  {
+    "source": "salt",
+    "target": "olive oil"
+  },
+  {
+    "source": "salt",
+    "target": "garlic"
+  },
+  {
+    "source": "salt",
+    "target": "saffron threads"
+  },
+  {
+    "source": "salt",
+    "target": "paprika"
+  },
+  {
+    "source": "garlic cloves",
+    "target": "garlic"
+  },
+  {
+    "source": "olive oil",
+    "target": "garlic"
+  },
+  {
+    "source": "saffron threads",
+    "target": "paprika"
+  },
+  {
+    "source": "sausage",
+    "target": "paprika"
+  },
+  {
+    "source": "fish sauce",
+    "target": "coconut milk"
+  },
+  {
+    "source": "garlic",
+    "target": "coconut milk"
+  }
+]
+}
