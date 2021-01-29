@@ -1,3 +1,5 @@
+lift up the app by command: python -m http.server
+
 # RecipeProject
 Exploring recipe datas using machine learning algorithms, and visualizingthe findings using d3 technology
 

@@ -91,9 +91,9 @@ function wordCloud(selector) {
         cloud.on("mouseenter", function (d) {
 
             var mouse = d3.mouse(this);
-            var text = "<h3>Ingredients: " + d.ingredients + "</h3><br>";
+            var text = "<h5>" + d.ingredients + "</h5>";
             text += "Fdist value: " + d.fdist + "<br>";
-            text += "Normalized value: " + d.fontSize;
+            text += "Normalized value: " + d.fontSize.toFixed(2);
             var color = d3.select(this).style('fill');
             tooltip(color, text, mouse[0], mouse[1], true);
 
@@ -151,8 +151,8 @@ function tooltip(color, text, x, y, show) {
         .classed("tooltip", true)
         .style({
             position: "absolute",
-            left: x + 30 + "px",
-            top: y + 100 + "px",
+            left:  0 + "px",
+            top:  0 + "px",
             display: display_tool,
             'background-color': color
         }).html(text);
