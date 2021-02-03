@@ -1,7 +1,7 @@
 lift up the app by command: python -m http.server
 
 # RecipeProject
-### Exploring recipe data using machine learning algorithms, and visualizingthe findings using **d3 technology**
+### Exploring recipe data using machine learning algorithms, and visualizing the findings using **d3 technology**
 
 #### The dataset was made of nearly 7000 recipes which had around 4000 plus ingredients and 19 cuisines. 
 
