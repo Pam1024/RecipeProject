@@ -1,4 +1,3 @@
-lift up the app by command: python -m http.server
 
 # RecipeProject
 ### Exploring recipe data using machine learning algorithms, and visualizing the findings using **d3 technology**
@@ -44,3 +43,5 @@ Calculated the confusion rates for each cuisine, bigger confusion rate implies b
 **js Folder:** for all js file, include related libs
 
 **Data Folder:** for all csv, python file
+
+lift up the app by command: python -m http.server
